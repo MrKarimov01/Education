@@ -2,8 +2,13 @@
 :root {
 
   --blue-backgrounds:#000D7F;
+  --main-text-color:#00121A;
+  --white-text-color:#fff;
+  --green:#219653; 
+  --red:#E96464;
 }
 *{
+
   padding: 0;
   margin: 0;
   box-sizing: border-box;
