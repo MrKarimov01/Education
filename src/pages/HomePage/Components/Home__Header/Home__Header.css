@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.home__header{
+  position: relative;
+  width: 100%;
+  height: auto ;
+}
+.home__header img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+
+  z-index: -1;
+}
+.home__header .home__nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  
+}
+
+.home__header h5{
+  color: white;
+  margin-left: 40px;
+  font-size: 20px;
+}
+.home__header .edu{
+  color: white;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.home__header .tag{
+  margin-top: 20px;
+}
+.home__header .tag a{
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  margin-top: 100px;
+}
+.home__h2{
+  color: white;
+  margin-top: 100px;
+  margin-left: 40px;
+  width: 50%;
+  font-size: 40px;
+}
+.home__header h4{
+  color: rgba(245, 245, 245, 0.932);
+  margin-top: 40px;
+  width: 790px;
+  margin-left: 40px;
+  font-size: 23px;
+}
+.home__header .home__ul-inner{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 25%;
+  margin-left: 50px;
+}
+
+.home__header .home__ul-inner ul {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  margin: 10px;
+  font-size: 25px;
+}
+.home__header .home__ul-inner button{
+  color: blue;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  width: 90%;
+  margin-top: 20px;
+  font-size: 25px;
+}
+.home__header .home-search{
+  background-color: rgba(0, 0, 237, 0.475);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  margin: 40px;
+  justify-content: space-around;
+}
+.home__header .home-search select{
+  margin: 20px;
+  padding: 20px;
+  width: 350px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.home__header .home-search button{
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+@media(max-width:1049px){
+  .home__header .home__nav{
+    font-size: 12px;
+  }
+  .home__header h4{
+    margin-left: 20px;
+    width: 300px;
+    font-size: 25px;
+  }
+  .home__header .home__ul-inner ul{
+    margin: 5px;
+    font-size: 18px;
+  }
+  .home__header .home__ul-inner {
+    width: 300px;
+    margin-left: 20px;
+
+  }
+  .home__header .home-search {
+  flex-direction: column;
+    margin: 0;
+  }
+  .home__header .home-search select{
+    width: 300px;
+  }
+
+}

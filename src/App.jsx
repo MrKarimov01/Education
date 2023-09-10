@@ -1,9 +1,12 @@
 import React from "react";
 
+import HomePage__Home from "./pages/HomePage/pages/HomePage__Home/HomePage__Home";
+
 const App = () => {
   return (
     <React.Fragment>
-      <h1>App</h1>
+
+      <HomePage__Home/>
     </React.Fragment>
   );
 };
