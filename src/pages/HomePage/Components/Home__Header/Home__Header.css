@@ -29,30 +29,30 @@
 }
 
 .home__header p{
-  color: white;
+  color: var(--white-text-color);
   font-size: 20px;
 }
 .home__header .edu{
-  color: white;
+  color: var(--white-text-color);
   margin-top: 20px;
 }
 .home__header .tag{
   margin-top: 20px;
 }
 .home__header .tag a{
-  color: white;
+  color: var(--white-text-color);
   text-decoration: none;
   margin: 10px;
   margin-top: 100px;
 }
 .home__h2{
-  color: white;
+  color: var(--white-text-color);
   margin-top: 100px;
   width: 50%;
   font-size: 40px;
 }
 .home__header h4{
-  color: rgba(245, 245, 245, 0.932);
+  color: var(--white-text-color);
   margin-top: 40px;
   width: 790px;
   font-size: 23px;
@@ -65,7 +65,7 @@
 }
 
 .home__header .home__ul-inner ul {
-  color: white;
+  color: var(--white-text-color);
   justify-content: space-between;
   margin: 10px;
   display: flex;
@@ -81,69 +81,112 @@
   margin-top: 20px;
   font-size: 20px;
   transition: all 1s ease;
+  cursor: pointer;
 }
 .home__header .home__ul-inner button:hover{
-  color: white;
-  background-color: blue;
+  color: var(--white-text-color);
+  background-color: var(--blue-backgrounds);
   transform: translateY(-10px);
   box-shadow: 0 5px 10px rgb(77, 77, 255);
 }
 .home__header .home__header-search{
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .home__header .home-search{
-  background-color: rgba(0, 0, 237, 0.475);
+  border-radius: 17px;
+  background: rgba(0, 13, 127, 0.50);
+  backdrop-filter: blur(6px);
   display: flex;
   align-items: center;
   justify-content: center;
   height: auto;
   margin: 30px;
-  border-radius: 10px;
   justify-content: space-around;
+  padding: 36px 30px;
+
 }
 .home__header .home-search select{
-  margin: 20px;
-  padding: 20px;
-  width: 350px;
+  margin-top: 20px;
   border: none;
-  border-radius: 10px;
+  border-radius: 12px;
   font-size: 20px;
+  padding: 18px 24px;
+  color: var(--Grey-darker, #5C7C8A);
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 344px;
 }
+
 .home__header .home-search button{
-  padding: 10px;
+  padding: 7px 30px;
   border: none;
   border-radius: 10px;
   font-size: 30px;
+  margin-top: 20px;
+  cursor: pointer;
 }
-
-.home__hero-inner-in{
-  margin-left:40px;
-  
-  border: 5px solid green;
+.home__hero{
+  margin: 40px;
 }
-
-.home__hero-inner-in .inner-text{
+.home__hero .p-teg{
+  color: #000;
+  font-family: Raleway;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.home__hero-inner{
+  display: flex;
   flex-direction: column;
 }
-.home__hero-inner-in span{
-  background-color: rgb(168, 168, 255);
-  font-size: 50px;
-  padding: 10px  20px;
-  border-radius: 200px;
+
+.home__hero-inner_in{
+  display: flex;
+  justify-content: space-between;
 }
-.home__hero-inner-in div {
-  width: 300px;
+.inner-text {
   display: flex;
   align-items: center;
-  
 }
-.home__hero-inner-in h6{
-  font-size: 25px;
-  color: blue;
-  margin-left: 10px;
+.inner-text-text{
+  margin-left: 20px;
+}
+.inner-text h6{
+  color: var(--blue-backgrounds);
+  font-family: Raleway;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 
 }
-
+ .inner-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  background-color: #D1DCE0;
+  text-align: center;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+.inner-text p{
+  color: var(--Grey-darker, #5C7C8A);
+  font-family: Raleway;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.inner-icon svg{
+  width: 70px;
+  height: 70px;
+}
 @media(max-width:1049px){
   .home__header-hero{
     margin: 5px;
@@ -175,14 +218,49 @@
   }
 
   .home__header .home-search {
-  flex-direction: column;
+    flex-direction: column;
     margin: 0;
   }
   .home__header .home-search select{
-    width: 300px;
+    width: 100%;
+
   }
   .home__header .home-search button{
-    width: 90%;
+    width: 100%;
     height: 60px;
   }
+.home__hero-inner_in{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: auto;
+}
+
+.inner-text-text h6{
+  transition: all 1s linear;
+  font-size: 35px;
+}
+.inner-text-text p{
+  font-size: 20px;
+}
+.inner-text{
+  flex-direction: column;
+
+}
+.inner-icon{
+  width: 300px;
+  height: 300px;
+
+}
+.inner-icon svg{
+  width: 123px;
+  height: 123px;
+}
+.inner-text-text{
+  text-align: center;
+  margin-top: 20px;
+}
+}
+.home__hero-inner-data{
+  border: 5px solid green;
 }
