@@ -8,7 +8,10 @@
 .home__header{
   position: relative;
   width: 100%;
-  height: auto ;
+  height: 1100px ;
+}
+.home__header-hero{
+  margin: 40px;
 }
 .home__header img{
   width: 100%;
@@ -22,19 +25,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-right: 20px;
-  
+  margin-left: 40px;
 }
 
-.home__header h5{
+.home__header p{
   color: white;
-  margin-left: 40px;
   font-size: 20px;
 }
 .home__header .edu{
   color: white;
   margin-top: 20px;
-  margin-left: 40px;
 }
 .home__header .tag{
   margin-top: 20px;
@@ -48,7 +48,6 @@
 .home__h2{
   color: white;
   margin-top: 100px;
-  margin-left: 40px;
   width: 50%;
   font-size: 40px;
 }
@@ -56,23 +55,22 @@
   color: rgba(245, 245, 245, 0.932);
   margin-top: 40px;
   width: 790px;
-  margin-left: 40px;
   font-size: 23px;
 }
 .home__header .home__ul-inner{
   display: flex;
   flex-direction: column;
   margin: 20px;
-  width: 25%;
-  margin-left: 50px;
+  width: 22%;
 }
 
 .home__header .home__ul-inner ul {
-  display: flex;
   color: white;
   justify-content: space-between;
   margin: 10px;
-  font-size: 25px;
+  display: flex;
+  font-size: 20px;
+
 }
 .home__header .home__ul-inner button{
   color: blue;
@@ -81,7 +79,17 @@
   border-radius: 10px;
   width: 90%;
   margin-top: 20px;
-  font-size: 25px;
+  font-size: 20px;
+  transition: all 1s ease;
+}
+.home__header .home__ul-inner button:hover{
+  color: white;
+  background-color: blue;
+  transform: translateY(-10px);
+  box-shadow: 0 5px 10px rgb(77, 77, 255);
+}
+.home__header .home__header-search{
+  margin-top: 100px;
 }
 .home__header .home-search{
   background-color: rgba(0, 0, 237, 0.475);
@@ -89,7 +97,8 @@
   align-items: center;
   justify-content: center;
   height: auto;
-  margin: 40px;
+  margin: 30px;
+  border-radius: 10px;
   justify-content: space-around;
 }
 .home__header .home-search select{
@@ -107,14 +116,50 @@
   font-size: 30px;
 }
 
+.home__hero-inner-in{
+  margin-left:40px;
+  
+  border: 5px solid green;
+}
+
+.home__hero-inner-in .inner-text{
+  flex-direction: column;
+}
+.home__hero-inner-in span{
+  background-color: rgb(168, 168, 255);
+  font-size: 50px;
+  padding: 10px  20px;
+  border-radius: 200px;
+}
+.home__hero-inner-in div {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  
+}
+.home__hero-inner-in h6{
+  font-size: 25px;
+  color: blue;
+  margin-left: 10px;
+
+}
+
 @media(max-width:1049px){
+  .home__header-hero{
+    margin: 5px;
+  }
+  .home__h2{
+    font-size: 30px;
+    margin-left: 20px;
+    width: 300px;
+  }
   .home__header .home__nav{
     font-size: 12px;
   }
   .home__header h4{
     margin-left: 20px;
     width: 300px;
-    font-size: 25px;
+    font-size: 15px;
   }
   .home__header .home__ul-inner ul{
     margin: 5px;
@@ -123,8 +168,12 @@
   .home__header .home__ul-inner {
     width: 300px;
     margin-left: 20px;
-
   }
+  .home__header .home__ul-inner button{
+    padding: 10px;
+    font-size: 20px;
+  }
+
   .home__header .home-search {
   flex-direction: column;
     margin: 0;
@@ -132,5 +181,8 @@
   .home__header .home-search select{
     width: 300px;
   }
-
+  .home__header .home-search button{
+    width: 90%;
+    height: 60px;
+  }
 }
