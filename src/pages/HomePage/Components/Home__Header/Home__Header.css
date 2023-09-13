@@ -212,7 +212,10 @@
   width: 70px;
   height: 70px;
 }
-
+.home__hero{
+  max-width: 1750px;
+  margin: auto;
+}
 @media(max-width:1049px) {
   .home__header-hero {
     margin: 5px;
