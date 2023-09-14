@@ -283,41 +283,211 @@ const Home__Header = () => {
                     <p className="subject-p">Самые популярные факультеты</p>
                 </div>
                 <div className="home__hero-inner-subjects-subjects">
-                <div className="subject-images">
-                    <img src="https://s3-alpha-sig.figma.com/img/ceaf/f8cc/0b162ffc4326639039c4c7f72b68ee83?Expires=1695600000&Signature=O9yijJ6bdUybUZDm~cH4pRAeCmkKKzCCG5D02Uj0Ts1dYt34cEknpxrwhR-efy~ikANhK4k5UbzvaZy5zpiQgTZKC5p3i-ungbDGK7pdZfd0yETZFXVn3JWy9gKy0NZDuZPD~jp4cOIS9VVnC6TpxWqaKiLD6OXWxU5JlzSqZ56an2qJQtCZxw8OfzQMxvzRW-L19oaezAg~QTmS9O4jmZlj1POvOzQ56VSn-3zUmepZKbaIdodrxTg4mz81DOwfVCbOsfT-L~NOxbuvepIU0BfL6Kg6aDWpCVZ~6K2tpfyteEtZ5kSJSX6X0JsKPjHqvs93ruwxHeQZHaSL9-8~yg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
-                    <p>Английский Язык</p>
+                    <div className="subject-images">
+                        <img src="https://s3-alpha-sig.figma.com/img/ceaf/f8cc/0b162ffc4326639039c4c7f72b68ee83?Expires=1695600000&Signature=O9yijJ6bdUybUZDm~cH4pRAeCmkKKzCCG5D02Uj0Ts1dYt34cEknpxrwhR-efy~ikANhK4k5UbzvaZy5zpiQgTZKC5p3i-ungbDGK7pdZfd0yETZFXVn3JWy9gKy0NZDuZPD~jp4cOIS9VVnC6TpxWqaKiLD6OXWxU5JlzSqZ56an2qJQtCZxw8OfzQMxvzRW-L19oaezAg~QTmS9O4jmZlj1POvOzQ56VSn-3zUmepZKbaIdodrxTg4mz81DOwfVCbOsfT-L~NOxbuvepIU0BfL6Kg6aDWpCVZ~6K2tpfyteEtZ5kSJSX6X0JsKPjHqvs93ruwxHeQZHaSL9-8~yg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+                        <p>Английский Язык</p>
                     </div>
                     <div className="subject-images">
-                    <img src="https://s3-alpha-sig.figma.com/img/26da/89d1/fc5cba7ddcb7c4c02eaea7e93ca0000b?Expires=1695600000&Signature=B77R~C0ddJqUhc-f~2DEGa397F-jpwV1iR5uYtnHC9RjxdIFL3kWrFJpmbU2mrvgE-oLNWTauORzrjPSrfehcvqmzuKyOAYxT~v4SrBDjcbzF31bS8pigXNurXBA7EZjrRMy2ysYrbfT8UTYiQ8T9IV7BKn4Ptpr4bUfpJEAoGZrdEaYLgC5hPMMbs-04qMt0cMqTVks~RRIWuBQfzbj0y3IYd9ZLpRrDnUFXa81d8aMUQErqkb2EKfQZ-AsoRIvXl3p0HrLOyZ3H641mwa0r7Xx~tAAQQ-bWQ8bmx7xLG4QeAnOTA8M9bWM4XMV2WfPnR0OMlMrnkQWUNOpUKepJA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
-                    <p>Бизнес менеджмент</p>
+                        <img src="https://s3-alpha-sig.figma.com/img/26da/89d1/fc5cba7ddcb7c4c02eaea7e93ca0000b?Expires=1695600000&Signature=B77R~C0ddJqUhc-f~2DEGa397F-jpwV1iR5uYtnHC9RjxdIFL3kWrFJpmbU2mrvgE-oLNWTauORzrjPSrfehcvqmzuKyOAYxT~v4SrBDjcbzF31bS8pigXNurXBA7EZjrRMy2ysYrbfT8UTYiQ8T9IV7BKn4Ptpr4bUfpJEAoGZrdEaYLgC5hPMMbs-04qMt0cMqTVks~RRIWuBQfzbj0y3IYd9ZLpRrDnUFXa81d8aMUQErqkb2EKfQZ-AsoRIvXl3p0HrLOyZ3H641mwa0r7Xx~tAAQQ-bWQ8bmx7xLG4QeAnOTA8M9bWM4XMV2WfPnR0OMlMrnkQWUNOpUKepJA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+                        <p>Бизнес менеджмент</p>
                     </div>
                     <div className="subject-images">
-                    <img src="https://s3-alpha-sig.figma.com/img/ad21/31ac/af59d7ca24bb77698839fce0915008bf?Expires=1695600000&Signature=IQZZddA7oeTO6nTXnzx3g9cW0qXY3BIkr70ROGrp1JBIpHwmxECF~ZMJfObQiEiy-nUnGJpZf5ffDe7VUTjy54Q9x9l7ErBTtHvlIHczCgTfHXsky94MAb7-5qU0yxVFTU8F0CRGjSr~V2gX0dG~mFeKZXJWSDRWMw6T5Hm6K1bEA9esYGC5cDpAsX9wB8~-iQYhj58-GZN87RLUVvZNozgd28lq7Nl4XCYT172Eomju2X0XmO6wivxi7HSLiI19WgM7iZCHhA7Sc3sARQRdr1LgodnswsgIGnyWqOjSV-Twor6hAaHmqT6Oyry1tokrYm7krnxxnemr6vSij1kKqA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
-                    <p>Французский язык</p>
+                        <img src="https://s3-alpha-sig.figma.com/img/ad21/31ac/af59d7ca24bb77698839fce0915008bf?Expires=1695600000&Signature=IQZZddA7oeTO6nTXnzx3g9cW0qXY3BIkr70ROGrp1JBIpHwmxECF~ZMJfObQiEiy-nUnGJpZf5ffDe7VUTjy54Q9x9l7ErBTtHvlIHczCgTfHXsky94MAb7-5qU0yxVFTU8F0CRGjSr~V2gX0dG~mFeKZXJWSDRWMw6T5Hm6K1bEA9esYGC5cDpAsX9wB8~-iQYhj58-GZN87RLUVvZNozgd28lq7Nl4XCYT172Eomju2X0XmO6wivxi7HSLiI19WgM7iZCHhA7Sc3sARQRdr1LgodnswsgIGnyWqOjSV-Twor6hAaHmqT6Oyry1tokrYm7krnxxnemr6vSij1kKqA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+                        <p>Французский язык</p>
                     </div>
                     <div className="subject-images">
-                    <img src="https://s3-alpha-sig.figma.com/img/5344/9229/3216c5a4ac6ec7f5d8f1ec53141a9aa5?Expires=1695600000&Signature=EyImonJexmpNt0WzkakGhPBFvp5ux239tRd1Lzny0VqpEPMnPjaHaxeqAKFLjSppXm~FGPnJfMoFCJyCBX8xTNr6hAM8nBWucrMJygCBaXvBMLPwLI5I0KEZfVhnOph7y6t8WcQx9wO5FBIlRLS0edSpqMCNCSBn1niotjOh8vfbUI363l7rGJNtyEKOwHCvP8yeoG9qxJW0C4XtvdzJbgpWTZk6ZHaoMurRi3CZ0dJsT9R-8B~OWsbR0-G-KolWctQETDdFKHjSUftkm3g9GBPeYzxt7RP93SuWY~aP9xqkRrxrvFBuHq7-X~N3~vn6FC6fxTAifPN8~0EtNxXOIw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
-                    <p>Отельный бизнес</p>
+                        <img src="https://s3-alpha-sig.figma.com/img/5344/9229/3216c5a4ac6ec7f5d8f1ec53141a9aa5?Expires=1695600000&Signature=EyImonJexmpNt0WzkakGhPBFvp5ux239tRd1Lzny0VqpEPMnPjaHaxeqAKFLjSppXm~FGPnJfMoFCJyCBX8xTNr6hAM8nBWucrMJygCBaXvBMLPwLI5I0KEZfVhnOph7y6t8WcQx9wO5FBIlRLS0edSpqMCNCSBn1niotjOh8vfbUI363l7rGJNtyEKOwHCvP8yeoG9qxJW0C4XtvdzJbgpWTZk6ZHaoMurRi3CZ0dJsT9R-8B~OWsbR0-G-KolWctQETDdFKHjSUftkm3g9GBPeYzxt7RP93SuWY~aP9xqkRrxrvFBuHq7-X~N3~vn6FC6fxTAifPN8~0EtNxXOIw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+                        <p>Отельный бизнес</p>
                     </div>
                     <div className="subject-images">
-                    <img src="https://s3-alpha-sig.figma.com/img/fa13/174b/fbba039ebfe9502453cc4d6113ffc56a?Expires=1695600000&Signature=aTjBK-2k5INYNhmHazA~1qq8S44qgDj5f9akiVz4obsQNM5ccVZZetuPSYyzKa-rzOOUCllMSDl7PSz9u-6yb15Kv2rHU9G8Epi5NuqXv4~QhysHbhhKWkN0fJJXa9yOiJt8h0IAj-wBqM2UxxGdrt909s~TkYpV91r8kd6F1bCxucV0-fFb8SfLn8k813S8MoYIL16p5TpTZ7Sz9uaPfqnNJObXF-T~KyGxvu2d~TcE~Z5kSUu0Ag93o8wFIF8PcrKeuXH9uaiYKVDbLHOrOjkXfLgK7uIvyePVTkQgtTS-JgAVXgt2VCp4yhjTOHBdOHnYWLMUHS4gAQMnqXjgqA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
-                    <p>IT</p>
+                        <img src="https://s3-alpha-sig.figma.com/img/fa13/174b/fbba039ebfe9502453cc4d6113ffc56a?Expires=1695600000&Signature=aTjBK-2k5INYNhmHazA~1qq8S44qgDj5f9akiVz4obsQNM5ccVZZetuPSYyzKa-rzOOUCllMSDl7PSz9u-6yb15Kv2rHU9G8Epi5NuqXv4~QhysHbhhKWkN0fJJXa9yOiJt8h0IAj-wBqM2UxxGdrt909s~TkYpV91r8kd6F1bCxucV0-fFb8SfLn8k813S8MoYIL16p5TpTZ7Sz9uaPfqnNJObXF-T~KyGxvu2d~TcE~Z5kSUu0Ag93o8wFIF8PcrKeuXH9uaiYKVDbLHOrOjkXfLgK7uIvyePVTkQgtTS-JgAVXgt2VCp4yhjTOHBdOHnYWLMUHS4gAQMnqXjgqA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+                        <p>IT</p>
                     </div>
                     <div className="subject-images">
-                    <img src="https://s3-alpha-sig.figma.com/img/654a/7dd3/c1d110e96f277310a556fce286fc3c59?Expires=1695600000&Signature=T31L5BVwNsQ2tV2PIUfKSV19JzgyE~uUe5ICaSVkqpAnGcGne9xK574dYOtGI18-PIaigveHu7v5Aked5eDlYdYDuepTaFU3WfihalDb8bkJGHGDpVjx21eJVxl~eYeqHzgmOsio-JX7k3QG1rT5rt6zMMfre6xnyMdqlA37bHJfSkE92FMwyKV~DLwcPihdrTX4tWHFYBAoj4utskhZRevlr8St2lPMHYFwzL6CKWFqyhir8WiSNu2-Strwclgjb52uzt8A1mzpRMvroktivhUt9acfC2rAJJNSdfA-W-wquzjghdMUfuzmRDsw016RNCCQBq8mJEDAYG54AYx-sw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
-                    <p>Финансы</p>
+                        <img src="https://s3-alpha-sig.figma.com/img/654a/7dd3/c1d110e96f277310a556fce286fc3c59?Expires=1695600000&Signature=T31L5BVwNsQ2tV2PIUfKSV19JzgyE~uUe5ICaSVkqpAnGcGne9xK574dYOtGI18-PIaigveHu7v5Aked5eDlYdYDuepTaFU3WfihalDb8bkJGHGDpVjx21eJVxl~eYeqHzgmOsio-JX7k3QG1rT5rt6zMMfre6xnyMdqlA37bHJfSkE92FMwyKV~DLwcPihdrTX4tWHFYBAoj4utskhZRevlr8St2lPMHYFwzL6CKWFqyhir8WiSNu2-Strwclgjb52uzt8A1mzpRMvroktivhUt9acfC2rAJJNSdfA-W-wquzjghdMUfuzmRDsw016RNCCQBq8mJEDAYG54AYx-sw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+                        <p>Финансы</p>
                     </div>
                     <div className="subject-images">
-                    <img src="https://s3-alpha-sig.figma.com/img/8295/29a9/5fccd94bac2841afff17e9d39f7726a1?Expires=1695600000&Signature=TpcN6jDyb6wqUze8xaAp66KiL1MODPedt8tr5c8xunMmZ8afAyu3SY1-3EdMCe-3FsVCBoInAE-W6xfepImTq5RiEW151Q0AiNFHUEHhIEZVwQEKJQ879FeOXbHrl6nSu6s75I1LzT41tDYHrlqIJe8-OI7lsLvWy0cTLp9YzDAfBmtos0R8FUVom4HAYNaDVDZtygLXMQJBaXB8Bndp5f5ROu0ZVslNxkep9j2nWfkXE~wl~gx~zGlo4Ph6kKOxzfgmrsM479MIAWhVblm6eJhmrLnu44RdeHBUuABSV2muou96HEO4LMxiYVTBBCU5ATK8pTiC1fvjzG9AIypM8w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
-                    <p>Дипломатия</p>
+                        <img src="https://s3-alpha-sig.figma.com/img/8295/29a9/5fccd94bac2841afff17e9d39f7726a1?Expires=1695600000&Signature=TpcN6jDyb6wqUze8xaAp66KiL1MODPedt8tr5c8xunMmZ8afAyu3SY1-3EdMCe-3FsVCBoInAE-W6xfepImTq5RiEW151Q0AiNFHUEHhIEZVwQEKJQ879FeOXbHrl6nSu6s75I1LzT41tDYHrlqIJe8-OI7lsLvWy0cTLp9YzDAfBmtos0R8FUVom4HAYNaDVDZtygLXMQJBaXB8Bndp5f5ROu0ZVslNxkep9j2nWfkXE~wl~gx~zGlo4Ph6kKOxzfgmrsM479MIAWhVblm6eJhmrLnu44RdeHBUuABSV2muou96HEO4LMxiYVTBBCU5ATK8pTiC1fvjzG9AIypM8w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+                        <p>Дипломатия</p>
                     </div>
                     <div className="subject-images">
-                    <img src="https://s3-alpha-sig.figma.com/img/d676/a0f9/e01e2b1ed22a918dbcffeca178c59064?Expires=1695600000&Signature=Yt0B2bNKZyxBJDMZ3yALMat8qzQ0BjdcKMnvuw9paWUyy1s~W33eBM0owqpDzKIwQionpc59Vin~AHXnLZ~~mGWltPbyFsjDGfEcNqBjKUgkpE6DcxMcmtSA9TzvFkM~9SOi1piDc5qK-4~wR1oeolI0KdArY3vaZGGMZRkL3P90dOjGb1-g8kmN4yn4XzmDSGTs3oyivcdSD4Tfgwq9~JL6~WQph9GTkqm~-Pa8nqLc77jrN9tPP674bGZI6qeTnELzK~SIJskXM-7Fx-TDgEh13okJkXjwOqey0CflD8h--Q5ebmAE4YxAB9SsIwtD9b181PB~hTO53shu4R9tiA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
-                    <p>Литература</p>
+                        <img src="https://s3-alpha-sig.figma.com/img/d676/a0f9/e01e2b1ed22a918dbcffeca178c59064?Expires=1695600000&Signature=Yt0B2bNKZyxBJDMZ3yALMat8qzQ0BjdcKMnvuw9paWUyy1s~W33eBM0owqpDzKIwQionpc59Vin~AHXnLZ~~mGWltPbyFsjDGfEcNqBjKUgkpE6DcxMcmtSA9TzvFkM~9SOi1piDc5qK-4~wR1oeolI0KdArY3vaZGGMZRkL3P90dOjGb1-g8kmN4yn4XzmDSGTs3oyivcdSD4Tfgwq9~JL6~WQph9GTkqm~-Pa8nqLc77jrN9tPP674bGZI6qeTnELzK~SIJskXM-7Fx-TDgEh13okJkXjwOqey0CflD8h--Q5ebmAE4YxAB9SsIwtD9b181PB~hTO53shu4R9tiA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+                        <p>Литература</p>
                     </div>
                     <div className="subject-images">
-                    <img src="https://s3-alpha-sig.figma.com/img/ad21/31ac/af59d7ca24bb77698839fce0915008bf?Expires=1695600000&Signature=IQZZddA7oeTO6nTXnzx3g9cW0qXY3BIkr70ROGrp1JBIpHwmxECF~ZMJfObQiEiy-nUnGJpZf5ffDe7VUTjy54Q9x9l7ErBTtHvlIHczCgTfHXsky94MAb7-5qU0yxVFTU8F0CRGjSr~V2gX0dG~mFeKZXJWSDRWMw6T5Hm6K1bEA9esYGC5cDpAsX9wB8~-iQYhj58-GZN87RLUVvZNozgd28lq7Nl4XCYT172Eomju2X0XmO6wivxi7HSLiI19WgM7iZCHhA7Sc3sARQRdr1LgodnswsgIGnyWqOjSV-Twor6hAaHmqT6Oyry1tokrYm7krnxxnemr6vSij1kKqA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
-                    <p>Французский язык</p>
+                        <img src="https://s3-alpha-sig.figma.com/img/ad21/31ac/af59d7ca24bb77698839fce0915008bf?Expires=1695600000&Signature=IQZZddA7oeTO6nTXnzx3g9cW0qXY3BIkr70ROGrp1JBIpHwmxECF~ZMJfObQiEiy-nUnGJpZf5ffDe7VUTjy54Q9x9l7ErBTtHvlIHczCgTfHXsky94MAb7-5qU0yxVFTU8F0CRGjSr~V2gX0dG~mFeKZXJWSDRWMw6T5Hm6K1bEA9esYGC5cDpAsX9wB8~-iQYhj58-GZN87RLUVvZNozgd28lq7Nl4XCYT172Eomju2X0XmO6wivxi7HSLiI19WgM7iZCHhA7Sc3sARQRdr1LgodnswsgIGnyWqOjSV-Twor6hAaHmqT6Oyry1tokrYm7krnxxnemr6vSij1kKqA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+                        <p>Французский язык</p>
+                    </div>
+                </div>
+                <div className="home__hero-inner-comments">
+                    <p className="home__hero-inner-comments-p">Как мы работаем</p>
+
+
+
+                    <div className="home__hero-inner-icons-comments-icons">
+
+                        <div className="home__hero-inner-icons">
+                            <div className="icons">
+                                <div className="hero-inner-icons-icon-svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="99" viewBox="0 0 100 99" fill="none">
+                                    <g clip-path="url(#clip0_101_1990)">
+                                        <path d="M66.1628 41.2501C54.7817 41.2501 45.5225 31.9977 45.5225 20.6251C45.5225 9.25244 54.7817 6.10352e-05 66.1628 6.10352e-05C77.5438 6.10352e-05 86.803 9.25244 86.803 20.6251C86.803 31.9977 77.5438 41.2501 66.1628 41.2501ZM66.1628 4.12506C57.0563 4.12506 49.6505 11.5253 49.6505 20.6251C49.6505 29.7248 57.0563 37.1251 66.1628 37.1251C75.2693 37.1251 82.675 29.7248 82.675 20.6251C82.675 11.5253 75.2693 4.12506 66.1628 4.12506Z" fill="#000D7F" />
+                                        <path d="M92.9956 49.5001C92.4672 49.5001 91.9388 49.2979 91.5342 48.8978L78.8694 36.2423C78.0644 35.4379 78.0644 34.1303 78.8694 33.3259C79.6743 32.5216 80.9829 32.5216 81.7879 33.3259L94.4528 45.9814C95.2577 46.7858 95.2577 48.0934 94.4528 48.8978C94.0524 49.2979 93.524 49.5001 92.9956 49.5001Z" fill="#000D7F" />
+                                        <path d="M6.30622 74.2501C5.16687 74.2501 4.24219 73.3261 4.24219 72.1876V10.3126C4.24219 4.62831 8.87387 6.10352e-05 14.5623 6.10352e-05H43.4587C44.5981 6.10352e-05 45.5228 0.924061 45.5228 2.06256C45.5228 3.20106 44.5981 4.12506 43.4587 4.12506H14.5623C11.1484 4.12506 8.37025 6.90119 8.37025 10.3126V72.1876C8.37025 73.3261 7.44556 74.2501 6.30622 74.2501Z" fill="#000D7F" />
+                                        <path d="M31.0746 82.5001H14.5623C8.87387 82.5001 4.24219 77.8718 4.24219 72.1876C4.24219 66.5033 8.87387 61.8751 14.5623 61.8751H74.4192V51.5626C74.4192 50.4241 75.3438 49.5001 76.4832 49.5001C77.6225 49.5001 78.5472 50.4241 78.5472 51.5626V63.9376C78.5472 65.0761 77.6225 66.0001 76.4832 66.0001H14.5623C11.1484 66.0001 8.37024 68.7762 8.37024 72.1876C8.37024 75.5989 11.1484 78.3751 14.5623 78.3751H31.0746C32.2139 78.3751 33.1386 79.2991 33.1386 80.4376C33.1386 81.5761 32.2139 82.5001 31.0746 82.5001Z" fill="#000D7F" />
+                                        <path d="M76.4837 82.5001H51.7154C50.5761 82.5001 49.6514 81.5761 49.6514 80.4376C49.6514 79.2991 50.5761 78.3751 51.7154 78.3751H74.4197V63.9376C74.4197 62.7991 75.3444 61.8751 76.4837 61.8751C77.6231 61.8751 78.5478 62.7991 78.5478 63.9376V80.4376C78.5478 81.5761 77.6231 82.5001 76.4837 82.5001Z" fill="#000D7F" />
+                                        <path d="M51.7151 99C51.2568 99 50.7986 98.8474 50.423 98.5504L41.3949 91.3275L32.3627 98.5463C31.7435 99.0413 30.8973 99.1361 30.179 98.7938C29.4648 98.4514 29.0107 97.7295 29.0107 96.9375V72.1875C29.0107 71.049 29.9354 70.125 31.0748 70.125C32.2141 70.125 33.1388 71.049 33.1388 72.1875V92.6434L40.107 87.0746C40.8624 86.4724 41.9316 86.4724 42.687 87.0746L49.651 92.6434V72.1875C49.651 71.049 50.5757 70.125 51.7151 70.125C52.8544 70.125 53.7791 71.049 53.7791 72.1875V96.9375C53.7791 97.7295 53.325 98.4514 52.6108 98.7979C52.326 98.934 52.0205 99 51.7151 99Z" fill="#000D7F" />
+                                        <path d="M59.9714 74.25H22.8189C21.6796 74.25 20.7549 73.326 20.7549 72.1875C20.7549 71.049 21.6796 70.125 22.8189 70.125H59.9714C61.1108 70.125 62.0355 71.049 62.0355 72.1875C62.0355 73.326 61.1108 74.25 59.9714 74.25Z" fill="#000D7F" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_101_1990">
+                                            <rect width="99.0734" height="99" fill="white" transform="translate(0.114258 6.10352e-05)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                </div>
+                                
+                                <p>Ищите программу и университет</p>
+                            </div>
+                            
+                            <div className="icons-straight">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="201" height="24" viewBox="0 0 201 24" fill="none">
+                                    <path d="M200.398 12L180.398 0.452994V23.547L200.398 12ZM0.25 14H6.50463V10H0.25V14ZM19.0139 14H31.5232V10H19.0139V14ZM44.0324 14H56.5417V10H44.0324V14ZM69.051 14H81.5602V10H69.051V14ZM94.0695 14H106.579V10H94.0695V14ZM119.088 14H131.597V10H119.088V14ZM144.107 14H156.616V10H144.107V14ZM169.125 14H181.634V10H169.125V14Z" fill="#B3C5CC" />
+                                </svg>
+                            </div>
+                            <div className="icons">
+                                <div className="hero-inner-icons-icon-svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="99" viewBox="0 0 100 99" fill="none">
+                                    <g clip-path="url(#clip0_101_1998)">
+                                        <path d="M72.7084 99.0002C57.9134 99.0002 45.876 86.9717 45.876 72.1877C45.876 57.4037 57.9134 45.3752 72.7084 45.3752C87.5033 45.3752 99.5407 57.4037 99.5407 72.1877C99.5407 86.9717 87.5033 99.0002 72.7084 99.0002ZM72.7084 49.5002C60.188 49.5002 50.004 59.6807 50.004 72.1877C50.004 84.6947 60.188 94.8752 72.7084 94.8752C85.2288 94.8752 95.4127 84.6947 95.4127 72.1877C95.4127 59.6807 85.2288 49.5002 72.7084 49.5002Z" fill="#000D7F" />
+                                        <path d="M68.5809 82.5002C68.036 82.5002 67.5076 82.2815 67.1196 81.8979L58.8635 73.6479C58.0585 72.8435 58.0585 71.5359 58.8635 70.7315C59.6685 69.9272 60.9771 69.9272 61.782 70.7315L68.4777 77.4223L81.4729 62.5805C82.2242 61.7184 83.5286 61.6359 84.3873 62.3867C85.2459 63.1374 85.3326 64.4368 84.5813 65.2948L70.1331 81.7948C69.7574 82.2238 69.2167 82.4795 68.647 82.5002C68.6263 82.5002 68.6016 82.5002 68.5809 82.5002Z" fill="#000D7F" />
+                                        <path d="M39.6843 86.6251H10.7879C5.09945 86.6251 0.467773 82.0009 0.467773 76.3126V22.6876C0.467773 16.9992 5.09945 12.3751 10.7879 12.3751H19.044C20.1834 12.3751 21.1081 13.2991 21.1081 14.4376C21.1081 15.5761 20.1834 16.5001 19.044 16.5001H10.7879C7.37402 16.5001 4.59583 19.2762 4.59583 22.6876V76.3126C4.59583 79.7239 7.37402 82.5001 10.7879 82.5001H39.6843C40.8237 82.5001 41.7484 83.4241 41.7484 84.5626C41.7484 85.7011 40.8237 86.6251 39.6843 86.6251Z" fill="#000D7F" />
+                                        <path d="M68.5811 37.1251C67.4418 37.1251 66.5171 36.2011 66.5171 35.0626V22.6876C66.5171 19.2762 63.7389 16.5001 60.325 16.5001H52.0689C50.9296 16.5001 50.0049 15.5761 50.0049 14.4376C50.0049 13.2991 50.9296 12.3751 52.0689 12.3751H60.325C66.0135 12.3751 70.6452 16.9992 70.6452 22.6876V35.0626C70.6452 36.2011 69.7205 37.1251 68.5811 37.1251Z" fill="#000D7F" />
+                                        <path d="M47.9409 24.7501H23.1726C19.7587 24.7501 16.9805 21.9739 16.9805 18.5626V10.3126C16.9805 9.17406 17.9052 8.25006 19.0445 8.25006H25.443C26.4048 3.54756 30.57 6.10352e-05 35.5567 6.10352e-05C40.5434 6.10352e-05 44.7086 3.54756 45.6705 8.25006H52.069C53.2083 8.25006 54.133 9.17406 54.133 10.3126V18.5626C54.133 21.9739 51.3548 24.7501 47.9409 24.7501ZM21.1085 12.3751V18.5626C21.1085 19.6969 22.0332 20.6251 23.1726 20.6251H47.9409C49.0802 20.6251 50.0049 19.6969 50.0049 18.5626V12.3751H43.8128C42.6735 12.3751 41.7488 11.4511 41.7488 10.3126C41.7488 6.90119 38.9706 4.12506 35.5567 4.12506C32.1428 4.12506 29.3646 6.90119 29.3646 10.3126C29.3646 11.4511 28.44 12.3751 27.3006 12.3751H21.1085Z" fill="#000D7F" />
+                                        <path d="M56.1962 37.1252H14.9156C13.7762 37.1252 12.8516 36.2012 12.8516 35.0627C12.8516 33.9242 13.7762 33.0002 14.9156 33.0002H56.1962C57.3355 33.0002 58.2602 33.9242 58.2602 35.0627C58.2602 36.2012 57.3355 37.1252 56.1962 37.1252Z" fill="#000D7F" />
+                                        <path d="M43.812 49.5002H14.9156C13.7762 49.5002 12.8516 48.5762 12.8516 47.4377C12.8516 46.2992 13.7762 45.3752 14.9156 45.3752H43.812C44.9513 45.3752 45.876 46.2992 45.876 47.4377C45.876 48.5762 44.9513 49.5002 43.812 49.5002Z" fill="#000D7F" />
+                                        <path d="M35.5559 61.8752H14.9156C13.7762 61.8752 12.8516 60.9512 12.8516 59.8127C12.8516 58.6742 13.7762 57.7502 14.9156 57.7502H35.5559C36.6952 57.7502 37.6199 58.6742 37.6199 59.8127C37.6199 60.9512 36.6952 61.8752 35.5559 61.8752Z" fill="#000D7F" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_101_1998">
+                                            <rect width="99.0734" height="99" fill="white" transform="translate(0.467773 6.10352e-05)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                </div>
+                                <p>Регистрируетесь на нашем сайте</p>
+                            </div>
+                            <div className="icons-straight">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="201" height="24" viewBox="0 0 201 24" fill="none">
+                                    <path d="M200.398 12L180.398 0.452994V23.547L200.398 12ZM0.25 14H6.50463V10H0.25V14ZM19.0139 14H31.5232V10H19.0139V14ZM44.0324 14H56.5417V10H44.0324V14ZM69.051 14H81.5602V10H69.051V14ZM94.0695 14H106.579V10H94.0695V14ZM119.088 14H131.597V10H119.088V14ZM144.107 14H156.616V10H144.107V14ZM169.125 14H181.634V10H169.125V14Z" fill="#B3C5CC" />
+                                </svg>
+                            </div>
+                            <div className="icons">
+                                <div className="hero-inner-icons-icon-svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="99" viewBox="0 0 100 99" fill="none">
+                                    <g clip-path="url(#clip0_101_2007)">
+                                        <path d="M49.9099 99C49.3691 99 48.8407 98.7855 48.4486 98.3977C47.9615 97.911 47.7468 97.2097 47.883 96.5374L50.8016 81.9555C50.8841 81.5512 51.074 81.1841 51.3671 80.8995L83.4752 48.8152C85.8859 46.4062 89.82 46.4062 92.2308 48.8152L98.0678 54.648C100.483 57.0611 100.483 60.984 98.0678 63.3971L65.9598 95.4814C65.675 95.7701 65.3076 95.964 64.903 96.0465L50.3103 98.9629C50.1782 98.9876 50.042 99 49.9099 99ZM54.7315 83.3704L52.5436 94.3057L63.4871 92.1195L95.1534 60.4766C95.9584 59.6722 95.9584 58.3646 95.1534 57.5602L89.3164 51.7275C88.5114 50.9231 87.2028 50.9231 86.3978 51.7275L54.7315 83.3704ZM64.5026 94.0211H64.5439H64.5026Z" fill="#000D7F" />
+                                        <path d="M40.0271 86.6251H11.1307C5.4381 86.6251 0.810547 82.0009 0.810547 76.3126V22.6876C0.810547 16.9992 5.4381 12.3751 11.1307 12.3751H19.3868C20.5262 12.3751 21.4508 13.2991 21.4508 14.4376C21.4508 15.5761 20.5262 16.5001 19.3868 16.5001H11.1307C7.71679 16.5001 4.93861 19.2762 4.93861 22.6876V76.3126C4.93861 79.7239 7.71679 82.5001 11.1307 82.5001H40.0271C41.1664 82.5001 42.0911 83.4241 42.0911 84.5626C42.0911 85.7011 41.1664 86.6251 40.0271 86.6251Z" fill="#000D7F" />
+                                        <path d="M68.9239 49.5001C67.7846 49.5001 66.8599 48.5761 66.8599 47.4376V22.6876C66.8599 19.2762 64.0817 16.5001 60.6678 16.5001H52.4117C51.2723 16.5001 50.3477 15.5761 50.3477 14.4376C50.3477 13.2991 51.2723 12.3751 52.4117 12.3751H60.6678C66.3604 12.3751 70.9879 16.9992 70.9879 22.6876V47.4376C70.9879 48.5761 70.0633 49.5001 68.9239 49.5001Z" fill="#000D7F" />
+                                        <path d="M48.2837 24.7501H23.5153C20.1014 24.7501 17.3232 21.9739 17.3232 18.5626V10.3126C17.3232 9.17406 18.2479 8.25006 19.3873 8.25006H25.7858C26.7435 3.54756 30.9169 6.10352e-05 35.8995 6.10352e-05C40.8821 6.10352e-05 45.0555 3.54756 46.0133 8.25006H52.4117C53.5511 8.25006 54.4758 9.17406 54.4758 10.3126V18.5626C54.4758 21.9739 51.6976 24.7501 48.2837 24.7501ZM21.4513 12.3751V18.5626C21.4513 19.6969 22.3801 20.6251 23.5153 20.6251H48.2837C49.4189 20.6251 50.3477 19.6969 50.3477 18.5626V12.3751H44.1556C43.0163 12.3751 42.0916 11.4511 42.0916 10.3126C42.0916 6.90119 39.3134 4.12506 35.8995 4.12506C32.4856 4.12506 29.7074 6.90119 29.7074 10.3126C29.7074 11.4511 28.7827 12.3751 27.6434 12.3751H21.4513Z" fill="#000D7F" />
+                                        <path d="M56.5389 37.1252H15.2584C14.119 37.1252 13.1943 36.2012 13.1943 35.0627C13.1943 33.9242 14.119 33.0002 15.2584 33.0002H56.5389C57.6783 33.0002 58.603 33.9242 58.603 35.0627C58.603 36.2012 57.6783 37.1252 56.5389 37.1252Z" fill="#000D7F" />
+                                        <path d="M56.5389 49.5002H15.2584C14.119 49.5002 13.1943 48.5762 13.1943 47.4377C13.1943 46.2992 14.119 45.3752 15.2584 45.3752H56.5389C57.6783 45.3752 58.603 46.2992 58.603 47.4377C58.603 48.5762 57.6783 49.5002 56.5389 49.5002Z" fill="#000D7F" />
+                                        <path d="M56.5389 61.8752H15.2584C14.119 61.8752 13.1943 60.9512 13.1943 59.8127C13.1943 58.6742 14.119 57.7502 15.2584 57.7502H56.5389C57.6783 57.7502 58.603 58.6742 58.603 59.8127C58.603 60.9512 57.6783 61.8752 56.5389 61.8752Z" fill="#000D7F" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_101_2007">
+                                            <rect width="99.0734" height="99" fill="white" transform="translate(0.810547 6.10352e-05)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                </div>
+                                <p>Заполняете анкету и подаете документы</p>
+                            </div>
+                        </div>
+                        <div className="home__hero-inner-icons2">
+                            
+                            <div className="icons-straight1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="150" viewBox="0 0 24 150" fill="none">
+                                    <path d="M11.8447 150L23.3917 130H0.297721L11.8447 150ZM9.84473 0V6.25H13.8447V0L9.84473 0ZM9.84473 18.75V31.25H13.8447V18.75H9.84473ZM9.84473 43.75V56.25H13.8447V43.75H9.84473ZM9.84473 68.75L9.84473 81.25H13.8447L13.8447 68.75H9.84473ZM9.84473 93.75L9.84473 106.25H13.8447L13.8447 93.75H9.84473ZM9.84473 118.75V131.25H13.8447V118.75H9.84473Z" fill="#B3C5CC" />
+                                </svg>
+                            </div>
+                            </div>
+                        <div className="home__hero-inner-icons1">
+                            <div className="icons">
+                                <div className="hero-inner-icons-icon-svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="99" viewBox="0 0 100 99" fill="none">
+                                    <g clip-path="url(#clip0_101_2043)">
+                                        <path d="M99.5339 38.25C99.5333 37.5543 99.2128 36.8981 98.6614 36.4724C98.6614 36.4724 93.1249 32.1809 85.954 26.5575V18C85.954 13.0364 81.9147 8.99993 76.9473 8.99993H63.9033C60.6949 6.38156 57.9106 4.06673 56.0511 2.41909C54.2623 0.837906 52.13 0.000272013 49.9986 6.10749e-05C47.8653 -0.000149863 45.7326 0.838749 43.9463 2.4193C42.0868 4.06694 39.3029 6.38177 36.0921 9.00014H22.9072C17.9399 9.00014 13.9004 13.0364 13.9004 18.0002V26.6681C6.80093 32.2362 1.33592 36.4703 1.33381 36.4724C0.782434 36.8981 0.461993 37.5543 0.46136 38.25H0.460938V90C0.460938 94.9636 4.50022 99.0001 9.46769 99.0001H90.5278C95.495 99.0001 99.5345 94.9638 99.5345 90V38.25H99.5339ZM85.954 32.2761C89.1365 34.7657 91.8353 36.8673 93.6106 38.2479C91.8378 39.6228 89.1339 41.7242 85.954 44.2088V32.2761ZM46.9324 5.78756C48.8631 4.07812 51.13 4.0758 53.0651 5.78967C54.0786 6.68531 55.3566 7.77375 56.8247 8.99993H43.1724C44.6408 7.77375 45.919 6.68446 46.9324 5.78756ZM18.4039 18C18.4039 15.5194 20.4247 13.5001 22.9072 13.5001H76.9473C79.4297 13.5001 81.4505 15.5194 81.4505 18V47.7353C71.3824 55.6372 58.7849 65.6502 53.0649 70.7102C52.5218 71.1913 51.3893 72 49.927 72C48.8582 72 47.8271 71.5672 46.8596 70.7102C41.0782 65.5947 28.4524 55.544 18.4039 47.6445V18ZM13.9007 32.3864V44.1122C10.7826 41.6718 8.13019 39.6063 6.38487 38.2502C8.13125 36.8905 10.7815 34.8265 13.9007 32.3864ZM95.0311 90.0002C95.0311 92.4808 93.0102 94.5001 90.5278 94.5001H9.46769C6.98522 94.5001 4.96442 92.4808 4.96442 90.0002V42.844C14.356 50.1488 36.0841 67.1854 43.8739 74.0809C45.6638 75.663 47.7572 76.5002 49.9274 76.5002C52.1131 76.5002 54.2878 75.641 56.0513 74.0809C64.1467 66.9175 86.3059 49.6189 95.0311 42.8426V90.0002Z" fill="#000D7F" />
+                                        <path d="M29.7332 27.0001H70.1929C71.4375 27.0001 72.4447 25.9937 72.4447 24.75C72.4447 23.5063 71.4375 22.4999 70.1929 22.4999H29.7332C28.4886 22.4999 27.4814 23.5063 27.4814 24.75C27.4814 25.9937 28.4886 27.0001 29.7332 27.0001Z" fill="#000D7F" />
+                                        <path d="M72.4445 38.25C72.4445 37.0063 71.4373 35.9999 70.1927 35.9999H29.7332C28.4886 35.9999 27.4814 37.0063 27.4814 38.25C27.4814 39.4937 28.4886 40.5001 29.7332 40.5001H70.1929C71.4373 40.5001 72.4445 39.4937 72.4445 38.25Z" fill="#000D7F" />
+                                        <path d="M63.437 51.75C63.437 50.5063 62.4299 49.4999 61.1853 49.4999H38.6687C37.4241 49.4999 36.417 50.5063 36.417 51.75C36.417 52.9937 37.4241 54.0001 38.6687 54.0001H61.1855C62.4299 54.0001 63.437 52.9937 63.437 51.75Z" fill="#000D7F" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_101_2043">
+                                            <rect width="99.0734" height="99" fill="white" transform="translate(0.460938 6.10352e-05)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                </div>
+                                <p>Получаете ответ от Университета</p>
+                            </div>
+                            <div className="icons-straight">
+                                
+                                <svg xmlns="http://www.w3.org/2000/svg" width="201" height="24" viewBox="0 0 201 24" fill="none">
+                                    <path d="M0.596863 12L20.5969 23.547V0.452994L0.596863 12ZM200.745 10H194.49V14H200.745V10ZM181.981 10H169.472V14H181.981V10ZM156.963 10H144.453V14H156.963V10ZM131.944 10H119.435V14H131.944V10ZM106.926 10H94.4164V14H106.926V10ZM81.9071 10H69.3978V14H81.9071V10ZM56.8886 10H44.3793V14H56.8886V10ZM31.8701 10H19.3608V14H31.8701V10Z" fill="#B3C5CC" />
+                                </svg>
+                            </div>
+                            <div className="icons">
+                            <div className="hero-inner-icons-icon-svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="99" viewBox="0 0 100 99" fill="none">
+                                    <g clip-path="url(#clip0_101_2043)">
+                                        <path d="M99.5339 38.25C99.5333 37.5543 99.2128 36.8981 98.6614 36.4724C98.6614 36.4724 93.1249 32.1809 85.954 26.5575V18C85.954 13.0364 81.9147 8.99993 76.9473 8.99993H63.9033C60.6949 6.38156 57.9106 4.06673 56.0511 2.41909C54.2623 0.837906 52.13 0.000272013 49.9986 6.10749e-05C47.8653 -0.000149863 45.7326 0.838749 43.9463 2.4193C42.0868 4.06694 39.3029 6.38177 36.0921 9.00014H22.9072C17.9399 9.00014 13.9004 13.0364 13.9004 18.0002V26.6681C6.80093 32.2362 1.33592 36.4703 1.33381 36.4724C0.782434 36.8981 0.461993 37.5543 0.46136 38.25H0.460938V90C0.460938 94.9636 4.50022 99.0001 9.46769 99.0001H90.5278C95.495 99.0001 99.5345 94.9638 99.5345 90V38.25H99.5339ZM85.954 32.2761C89.1365 34.7657 91.8353 36.8673 93.6106 38.2479C91.8378 39.6228 89.1339 41.7242 85.954 44.2088V32.2761ZM46.9324 5.78756C48.8631 4.07812 51.13 4.0758 53.0651 5.78967C54.0786 6.68531 55.3566 7.77375 56.8247 8.99993H43.1724C44.6408 7.77375 45.919 6.68446 46.9324 5.78756ZM18.4039 18C18.4039 15.5194 20.4247 13.5001 22.9072 13.5001H76.9473C79.4297 13.5001 81.4505 15.5194 81.4505 18V47.7353C71.3824 55.6372 58.7849 65.6502 53.0649 70.7102C52.5218 71.1913 51.3893 72 49.927 72C48.8582 72 47.8271 71.5672 46.8596 70.7102C41.0782 65.5947 28.4524 55.544 18.4039 47.6445V18ZM13.9007 32.3864V44.1122C10.7826 41.6718 8.13019 39.6063 6.38487 38.2502C8.13125 36.8905 10.7815 34.8265 13.9007 32.3864ZM95.0311 90.0002C95.0311 92.4808 93.0102 94.5001 90.5278 94.5001H9.46769C6.98522 94.5001 4.96442 92.4808 4.96442 90.0002V42.844C14.356 50.1488 36.0841 67.1854 43.8739 74.0809C45.6638 75.663 47.7572 76.5002 49.9274 76.5002C52.1131 76.5002 54.2878 75.641 56.0513 74.0809C64.1467 66.9175 86.3059 49.6189 95.0311 42.8426V90.0002Z" fill="#000D7F" />
+                                        <path d="M29.7332 27.0001H70.1929C71.4375 27.0001 72.4447 25.9937 72.4447 24.75C72.4447 23.5063 71.4375 22.4999 70.1929 22.4999H29.7332C28.4886 22.4999 27.4814 23.5063 27.4814 24.75C27.4814 25.9937 28.4886 27.0001 29.7332 27.0001Z" fill="#000D7F" />
+                                        <path d="M72.4445 38.25C72.4445 37.0063 71.4373 35.9999 70.1927 35.9999H29.7332C28.4886 35.9999 27.4814 37.0063 27.4814 38.25C27.4814 39.4937 28.4886 40.5001 29.7332 40.5001H70.1929C71.4373 40.5001 72.4445 39.4937 72.4445 38.25Z" fill="#000D7F" />
+                                        <path d="M63.437 51.75C63.437 50.5063 62.4299 49.4999 61.1853 49.4999H38.6687C37.4241 49.4999 36.417 50.5063 36.417 51.75C36.417 52.9937 37.4241 54.0001 38.6687 54.0001H61.1855C62.4299 54.0001 63.437 52.9937 63.437 51.75Z" fill="#000D7F" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_101_2043">
+                                            <rect width="99.0734" height="99" fill="white" transform="translate(0.460938 6.10352e-05)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                </div>
+                                <p>Мы отправляем ваши документы в Универ</p>
+                            </div>
+                            <div className="icons-straight">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="201" height="24" viewBox="0 0 201 24" fill="none">
+                                    <path d="M0.596863 12L20.5969 23.547V0.452994L0.596863 12ZM200.745 10H194.49V14H200.745V10ZM181.981 10H169.472V14H181.981V10ZM156.963 10H144.453V14H156.963V10ZM131.944 10H119.435V14H131.944V10ZM106.926 10H94.4164V14H106.926V10ZM81.9071 10H69.3978V14H81.9071V10ZM56.8886 10H44.3793V14H56.8886V10ZM31.8701 10H19.3608V14H31.8701V10Z" fill="#B3C5CC" />
+                                </svg>
+                            </div>
+                            <div className="icons">
+                            <div className="hero-inner-icons-icon-svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="99" viewBox="0 0 100 99" fill="none">
+                                    <g clip-path="url(#clip0_101_2015)">
+                                        <path d="M56.9494 6.10352e-05H23.9251C19.3726 6.10352e-05 15.6689 3.70096 15.6689 8.25013V67.6501C15.6689 72.1991 19.3726 75.9002 23.9251 75.9002H53.6471V72.6001H23.9251C21.194 72.6001 18.9715 70.3792 18.9715 67.6501V8.25013C18.9715 5.52105 21.194 3.30013 23.9251 3.30013H56.9496C59.6807 3.30013 61.9033 5.52105 61.9033 8.25013V56.1002H65.2056V8.25013C65.2056 3.70096 61.502 6.10352e-05 56.9494 6.10352e-05Z" fill="#000D7F" />
+                                        <path d="M81.0425 43.9496L64.844 23.7206L62.263 25.7831L78.4615 46.0105C80.5636 48.634 81.7194 51.9307 81.7178 55.2917V95.7002H57.5605C49.0304 95.7002 42.0886 88.7651 42.0886 80.2397V74.2502H38.7861V80.2397C38.7861 90.5835 47.2091 99.0002 57.5605 99.0002H83.3692C84.2823 99.0002 85.0203 98.2627 85.0203 97.3503V55.2935C85.0221 51.1882 83.6103 47.1588 81.0425 43.9496Z" fill="#000D7F" />
+                                        <path d="M43.7329 38.9122C44.892 38.9452 45.9704 39.4269 46.7645 40.2684L68.9554 63.8304L71.3612 61.5683L49.167 38.0045C47.7651 36.5211 45.8678 35.6715 43.8269 35.6137C41.7646 35.5444 39.8442 36.2951 38.3779 37.6795C38.3597 37.6977 38.2275 37.823 38.2111 37.8412C35.3892 40.6692 35.1992 45.1078 37.7736 48.1735L51.9956 64.954V70.0591C51.9939 79.1769 57.732 87.4485 66.2771 90.646L67.4362 87.5556C60.174 84.8381 55.2964 77.8074 55.298 70.0591V64.3501C55.298 63.9607 55.1592 63.5811 54.9067 63.2826L40.2984 46.045C38.8371 44.3059 38.9445 41.7797 40.6287 40.0951C41.4706 39.2999 42.5703 38.9054 43.7329 38.9122Z" fill="#000D7F" />
+                                        <path d="M55.2976 3.3002H51.9951V44.5501H55.2976V3.3002Z" fill="#000D7F" />
+                                        <path d="M47.0418 54.45H43.7393V74.25H47.0418V54.45Z" fill="#000D7F" />
+                                        <path d="M47.0418 1.64984H43.7393V37.9498H47.0418V1.64984Z" fill="#000D7F" />
+                                        <path d="M27.2273 8.25012H23.9248V29.7001H27.2273V8.25012Z" fill="#000D7F" />
+                                        <path d="M35.4832 8.25012H32.1807V21.4502H35.4832V8.25012Z" fill="#000D7F" />
+                                        <path d="M35.4833 54.45H25.576C24.6646 54.45 23.9248 55.1875 23.9248 56.0999V65.9999C23.9248 66.9124 24.6646 67.6498 25.576 67.6498H35.4833C36.3947 67.6498 37.1345 66.9124 37.1345 65.9999V56.0999C37.1345 55.1875 36.3947 54.45 35.4833 54.45ZM33.8321 64.35H27.2273V57.75H33.8321V64.35Z" fill="#000D7F" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_101_2015">
+                                            <rect width="99.0734" height="99" fill="white" transform="translate(0.807617 6.10352e-05)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                </div>
+                                <p>Оплачиваете за услуги нашей компании</p>
+                            </div>
+
+                        </div>
+
+
                     </div>
                 </div>
             </section>

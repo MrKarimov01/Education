@@ -212,11 +212,12 @@
   width: 70px;
   height: 70px;
 }
-.home__hero{
+
+.home__hero {
   max-width: 1750px;
-  margin: auto;
 }
-@media(max-width:1049px) {
+
+@media(max-width: 1300px) {
   .home__header-hero {
     margin: 5px;
   }
@@ -339,6 +340,35 @@
     width: 100%;
     margin-left: 0;
   }
+
+  .icons-straight {
+    display: none;
+  }
+
+  .icons-straight1 {
+    display: none;
+  }
+
+  .home__hero-inner-icons-comments-icons .icons {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .home__hero-inner-icons {
+    align-items: flex-start !important;
+    flex-wrap: wrap;
+  }
+
+  .home__hero-inner-icons1 {
+    align-items: flex-start !important;
+    flex-wrap: wrap;
+  }
+
+  .icons p {
+    text-align: center;
+    width: 300px;
+  }
+
 }
 
 .home__hero-inner-data-in {
@@ -355,6 +385,7 @@
   font-weight: 600;
   line-height: normal;
   margin-top: 25px;
+  margin-top: 50px;
 }
 
 .home__hero-inner-data-in-img {
@@ -399,6 +430,7 @@
   font-weight: 700;
   line-height: normal;
   margin-bottom: 10px;
+
 }
 
 .inner-span {
@@ -439,6 +471,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  margin-top: 50px;
 
 }
 
@@ -459,5 +492,96 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
+  line-height: normal;
+}
+
+.home__hero-inner-icons-comments-icons {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.home__hero-inner-icons-comments-icons {
+  cursor: pointer;
+}
+
+.home__hero-inner-comments-p {
+  color: #000;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 50px;
+}
+
+.home__hero-inner-icons-comments-icons .icons svg {
+  border-radius: 10px;
+  background: #D1DCE0;
+}
+
+.home__hero-inner-icons1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.home__hero-inner-icons {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+
+}
+
+.home__hero-inner-icons1 .icons {
+  padding: 30px;
+}
+
+.home__hero-inner-icons .icons {
+  padding: 30px;
+}
+
+
+.home__hero-inner-icons2 {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  margin: 40px;
+  margin-right: 90px;
+}
+
+.home__hero-inner-icons2 .icons-straight1 {
+  margin-right: 80px;
+
+}
+
+.hero-inner-icons-icon-svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: #D1DCE0;
+  width: 180.133px;
+  height: 180px;
+  flex-shrink: 0;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icons p {
+  color: rgba(0, 0, 0, 0.75);
+  text-align: center;
+  font-family: Raleway;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
   line-height: normal;
 }
