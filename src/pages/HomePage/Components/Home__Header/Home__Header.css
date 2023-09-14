@@ -483,8 +483,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
+  border: 5px solid green;
 
+}
+.subject-images:hover{
+  transform: translateY(0%);
+}
 .subject-images p {
   position: absolute;
   color: #FFF;
@@ -584,4 +588,26 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+.home__hero-inner-carousel{
+  display: flex;
+  flex-wrap: wrap;
+  border: 5px solid red;
+}
+.home__hero-inner-carousel-card{
+  border: 5px solid green;
+  display: flex;
+  margin-top: 40px;
+  width: 30%;
+  margin: 20px;
+}
+.home__hero-inner-carousel-in{
+  border: 5px solid blue;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 50px;
+}
+.home__hero-inner-carousel-card-img img{
+  border-radius: 50%;
 }
