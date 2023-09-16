@@ -7,7 +7,9 @@ const Home = () => {
     <div className="Admin_Home">
       <AdminSideBar />
       <div className="glavni">
-        <h1>salom</h1>
+        <div className="glavni_user">
+          <b>Главное</b>
+        </div>
       </div>
     </div>
   );
