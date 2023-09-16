@@ -278,8 +278,21 @@
     
     margin: 30px;
   }
+  .home__hero-inner-data-in{
+    border: 5px solid yellow;
+    justify-content: center;
+  }
+  .home__hero-inner-data-in .home__hero-inner-data-in-img{
+    width: 300px;
+    font-size: 15px;
+  }
+  .home__hero-inner-data-in .home__hero-inner-data-in-img span{
+    border: 5px solid red;
+    font-size: 15
+    px;
+  }
 }
-@media(max-width: 756px) {
+@media(max-width: 800px) {
   .home__header-hero {
     margin: 5px;
   }
@@ -401,7 +414,9 @@
     width: 400px;
   }
 
-
+  .home__hero-inner-data-in .home__hero-inner-data-in-img{
+    border: 5px solid green;
+  }
 }
 
 .home__hero-inner-data-in {
