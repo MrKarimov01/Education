@@ -178,25 +178,26 @@ const Home__Header = () => {
 
 
                                 <h5>Webster University</h5>
-                                <p>Webster University is a private university with its main campus in Webster Groves, Missouri. It has multiple branch locations across the United States and countries countries... Read more</p>
-                                <div className="home__hero-inner-data-in-text-in">
-                                    <span >Рейтинг : 125 место (US Ratings)</span>
-                                    <span className="inner-span">Качество обучения :<svg xmlns="http://www.w3.org/2000/svg" width="130" height="28" viewBox="0 0 130 28" fill="none">
-                                        <path d="M13.0489 2.92705C13.3483 2.00574 14.6517 2.00574 14.9511 2.92705L16.9187 8.98278C17.0526 9.3948 17.4365 9.67376 17.8697 9.67376H24.2371C25.2058 9.67376 25.6086 10.9134 24.8249 11.4828L19.6736 15.2254C19.3231 15.4801 19.1764 15.9314 19.3103 16.3435L21.2779 22.3992C21.5773 23.3205 20.5228 24.0866 19.7391 23.5172L14.5878 19.7746C14.2373 19.5199 13.7627 19.5199 13.4122 19.7746L8.2609 23.5172C7.47719 24.0866 6.42271 23.3205 6.72206 22.3992L8.68969 16.3435C8.82356 15.9314 8.6769 15.4801 8.32642 15.2254L3.17511 11.4828C2.39139 10.9134 2.79417 9.67376 3.76289 9.67376H10.1303C10.5635 9.67376 10.9474 9.3948 11.0813 8.98278L13.0489 2.92705Z" fill="#F2C94C" />
-                                        <path d="M115.049 2.92705C115.348 2.00574 116.652 2.00574 116.951 2.92705L118.919 8.98278C119.053 9.3948 119.437 9.67376 119.87 9.67376H126.237C127.206 9.67376 127.609 10.9134 126.825 11.4828L121.674 15.2254C121.323 15.4801 121.176 15.9314 121.31 16.3435L123.278 22.3992C123.577 23.3205 122.523 24.0866 121.739 23.5172L116.588 19.7746C116.237 19.5199 115.763 19.5199 115.412 19.7746L110.261 23.5172C109.477 24.0866 108.423 23.3205 108.722 22.3992L110.69 16.3435C110.824 15.9314 110.677 15.4801 110.326 15.2254L105.175 11.4828C104.391 10.9134 104.794 9.67376 105.763 9.67376H112.13C112.563 9.67376 112.947 9.3948 113.081 8.98278L115.049 2.92705Z" fill="#F2C94C" />
-                                        <path d="M47.0489 2.92705C47.3483 2.00574 48.6517 2.00574 48.9511 2.92705L50.9187 8.98278C51.0526 9.3948 51.4365 9.67376 51.8697 9.67376H58.2371C59.2058 9.67376 59.6086 10.9134 58.8249 11.4828L53.6736 15.2254C53.3231 15.4801 53.1764 15.9314 53.3103 16.3435L55.2779 22.3992C55.5773 23.3205 54.5228 24.0866 53.7391 23.5172L48.5878 19.7746C48.2373 19.5199 47.7627 19.5199 47.4122 19.7746L42.2609 23.5172C41.4772 24.0866 40.4227 23.3205 40.7221 22.3992L42.6897 16.3435C42.8236 15.9314 42.6769 15.4801 42.3264 15.2254L37.1751 11.4828C36.3914 10.9134 36.7942 9.67376 37.7629 9.67376H44.1303C44.5635 9.67376 44.9474 9.3948 45.0813 8.98278L47.0489 2.92705Z" fill="#F2C94C" />
-                                        <path d="M81.0489 2.92705C81.3483 2.00574 82.6517 2.00574 82.9511 2.92705L84.9187 8.98278C85.0526 9.3948 85.4365 9.67376 85.8697 9.67376H92.2371C93.2058 9.67376 93.6086 10.9134 92.8249 11.4828L87.6736 15.2254C87.3231 15.4801 87.1764 15.9314 87.3103 16.3435L89.2779 22.3992C89.5773 23.3205 88.5228 24.0866 87.7391 23.5172L82.5878 19.7746C82.2373 19.5199 81.7627 19.5199 81.4122 19.7746L76.2609 23.5172C75.4772 24.0866 74.4227 23.3205 74.7221 22.3992L76.6897 16.3435C76.8236 15.9314 76.6769 15.4801 76.3264 15.2254L71.1751 11.4828C70.3914 10.9134 70.7942 9.67376 71.7629 9.67376H78.1303C78.5635 9.67376 78.9474 9.3948 79.0813 8.98278L81.0489 2.92705Z" fill="#F2C94C" />
-                                    </svg></span>
-                                    <span>Цена за один год : $24,000</span>
-                                </div>
+                                <p>Webster University is a private university with its main campus in Webster Groves, Missouri. It has multiple branch locations across the United States and countries countries... </p><span className="link">Read more</span>
                             </div>
+                            <div className="home__hero-inner-data-in-text-in">
+                                <span >Рейтинг : 125 место (US Ratings)</span>
+                                <span className="inner-span">Качество обучения :<svg xmlns="http://www.w3.org/2000/svg" width="130" height="28" viewBox="0 0 130 28" fill="none">
+                                    <path d="M13.0489 2.92705C13.3483 2.00574 14.6517 2.00574 14.9511 2.92705L16.9187 8.98278C17.0526 9.3948 17.4365 9.67376 17.8697 9.67376H24.2371C25.2058 9.67376 25.6086 10.9134 24.8249 11.4828L19.6736 15.2254C19.3231 15.4801 19.1764 15.9314 19.3103 16.3435L21.2779 22.3992C21.5773 23.3205 20.5228 24.0866 19.7391 23.5172L14.5878 19.7746C14.2373 19.5199 13.7627 19.5199 13.4122 19.7746L8.2609 23.5172C7.47719 24.0866 6.42271 23.3205 6.72206 22.3992L8.68969 16.3435C8.82356 15.9314 8.6769 15.4801 8.32642 15.2254L3.17511 11.4828C2.39139 10.9134 2.79417 9.67376 3.76289 9.67376H10.1303C10.5635 9.67376 10.9474 9.3948 11.0813 8.98278L13.0489 2.92705Z" fill="#F2C94C" />
+                                    <path d="M115.049 2.92705C115.348 2.00574 116.652 2.00574 116.951 2.92705L118.919 8.98278C119.053 9.3948 119.437 9.67376 119.87 9.67376H126.237C127.206 9.67376 127.609 10.9134 126.825 11.4828L121.674 15.2254C121.323 15.4801 121.176 15.9314 121.31 16.3435L123.278 22.3992C123.577 23.3205 122.523 24.0866 121.739 23.5172L116.588 19.7746C116.237 19.5199 115.763 19.5199 115.412 19.7746L110.261 23.5172C109.477 24.0866 108.423 23.3205 108.722 22.3992L110.69 16.3435C110.824 15.9314 110.677 15.4801 110.326 15.2254L105.175 11.4828C104.391 10.9134 104.794 9.67376 105.763 9.67376H112.13C112.563 9.67376 112.947 9.3948 113.081 8.98278L115.049 2.92705Z" fill="#F2C94C" />
+                                    <path d="M47.0489 2.92705C47.3483 2.00574 48.6517 2.00574 48.9511 2.92705L50.9187 8.98278C51.0526 9.3948 51.4365 9.67376 51.8697 9.67376H58.2371C59.2058 9.67376 59.6086 10.9134 58.8249 11.4828L53.6736 15.2254C53.3231 15.4801 53.1764 15.9314 53.3103 16.3435L55.2779 22.3992C55.5773 23.3205 54.5228 24.0866 53.7391 23.5172L48.5878 19.7746C48.2373 19.5199 47.7627 19.5199 47.4122 19.7746L42.2609 23.5172C41.4772 24.0866 40.4227 23.3205 40.7221 22.3992L42.6897 16.3435C42.8236 15.9314 42.6769 15.4801 42.3264 15.2254L37.1751 11.4828C36.3914 10.9134 36.7942 9.67376 37.7629 9.67376H44.1303C44.5635 9.67376 44.9474 9.3948 45.0813 8.98278L47.0489 2.92705Z" fill="#F2C94C" />
+                                    <path d="M81.0489 2.92705C81.3483 2.00574 82.6517 2.00574 82.9511 2.92705L84.9187 8.98278C85.0526 9.3948 85.4365 9.67376 85.8697 9.67376H92.2371C93.2058 9.67376 93.6086 10.9134 92.8249 11.4828L87.6736 15.2254C87.3231 15.4801 87.1764 15.9314 87.3103 16.3435L89.2779 22.3992C89.5773 23.3205 88.5228 24.0866 87.7391 23.5172L82.5878 19.7746C82.2373 19.5199 81.7627 19.5199 81.4122 19.7746L76.2609 23.5172C75.4772 24.0866 74.4227 23.3205 74.7221 22.3992L76.6897 16.3435C76.8236 15.9314 76.6769 15.4801 76.3264 15.2254L71.1751 11.4828C70.3914 10.9134 70.7942 9.67376 71.7629 9.67376H78.1303C78.5635 9.67376 78.9474 9.3948 79.0813 8.98278L81.0489 2.92705Z" fill="#F2C94C" />
+                                </svg></span>
+                                <span>Цена за один год : $24,000</span>
+                            </div>
+
 
                         </div>
                         <div className="home__hero-inner-data-in-img">
                             <img src="https://s3-alpha-sig.figma.com/img/334a/fe8d/4e0149ff34b233d323822c4c71857b73?Expires=1695600000&Signature=qtowyGqvdxZlC-6gpifgZhElIovFyoHkc4PzumloXvhINr9HoDDm9V1VxdbjJUK2pAnOmqJzosobkXaQbkNi2-yQBP1kcVVYfiEcDToVWmlJnDHuYdYDuwUJyw3huc1A0VnLa0WaJoX6FWIUC5EwHFgaZf66e-H12iGELeQneZAn8kMbcr3VtT9uoPodRQaPtxV2w4mlru23vMKmn8cJEZY0HcUt97noWjwYKwmZpXta-qTCEoFqrEi4~li1pWtd8YjdqEENvExy6DbVFWzHM8MeaelAOOzldNcePw51H3szTMmNM409DvosIj77M1vLM0Kgdpzy4yEJaGjvHwrblw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
                             <div className="home__hero-inner-data-in-text">
                                 <h5>Webster University</h5>
-                                <p>Webster University is a private university with its main campus in Webster Groves, Missouri. It has multiple branch locations across the United States and countries countries... Read more</p>
+                                <p>Webster University is a private university with its main campus in Webster Groves, Missouri. It has multiple branch locations across the United States and countries countries... </p><span className="link">Read more</span>
                             </div>
                             <div className="home__hero-inner-data-in-text-in">
                                 <span>Рейтинг : 125 место (US Ratings)</span>
@@ -213,7 +214,7 @@ const Home__Header = () => {
                             <img src="https://s3-alpha-sig.figma.com/img/334a/fe8d/4e0149ff34b233d323822c4c71857b73?Expires=1695600000&Signature=qtowyGqvdxZlC-6gpifgZhElIovFyoHkc4PzumloXvhINr9HoDDm9V1VxdbjJUK2pAnOmqJzosobkXaQbkNi2-yQBP1kcVVYfiEcDToVWmlJnDHuYdYDuwUJyw3huc1A0VnLa0WaJoX6FWIUC5EwHFgaZf66e-H12iGELeQneZAn8kMbcr3VtT9uoPodRQaPtxV2w4mlru23vMKmn8cJEZY0HcUt97noWjwYKwmZpXta-qTCEoFqrEi4~li1pWtd8YjdqEENvExy6DbVFWzHM8MeaelAOOzldNcePw51H3szTMmNM409DvosIj77M1vLM0Kgdpzy4yEJaGjvHwrblw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
                             <div className="home__hero-inner-data-in-text">
                                 <h5>Webster University</h5>
-                                <p>Webster University is a private university with its main campus in Webster Groves, Missouri. It has multiple branch locations across the United States and countries countries... Read more</p>
+                                <p>Webster University is a private university with its main campus in Webster Groves, Missouri. It has multiple branch locations across the United States and countries countries... </p><span className="link">Read more</span>
                             </div>
                             <div className="home__hero-inner-data-in-text-in">
                                 <span>Рейтинг : 125 место (US Ratings)</span>
@@ -230,7 +231,7 @@ const Home__Header = () => {
                             <img src="https://s3-alpha-sig.figma.com/img/334a/fe8d/4e0149ff34b233d323822c4c71857b73?Expires=1695600000&Signature=qtowyGqvdxZlC-6gpifgZhElIovFyoHkc4PzumloXvhINr9HoDDm9V1VxdbjJUK2pAnOmqJzosobkXaQbkNi2-yQBP1kcVVYfiEcDToVWmlJnDHuYdYDuwUJyw3huc1A0VnLa0WaJoX6FWIUC5EwHFgaZf66e-H12iGELeQneZAn8kMbcr3VtT9uoPodRQaPtxV2w4mlru23vMKmn8cJEZY0HcUt97noWjwYKwmZpXta-qTCEoFqrEi4~li1pWtd8YjdqEENvExy6DbVFWzHM8MeaelAOOzldNcePw51H3szTMmNM409DvosIj77M1vLM0Kgdpzy4yEJaGjvHwrblw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
                             <div className="home__hero-inner-data-in-text">
                                 <h5>Webster University</h5>
-                                <p>Webster University is a private university with its main campus in Webster Groves, Missouri. It has multiple branch locations across the United States and countries countries... Read more</p>
+                                <p>Webster University is a private university with its main campus in Webster Groves, Missouri. It has multiple branch locations across the United States and countries countries... </p><span className="link">Read more</span>
                             </div>
                             <div className="home__hero-inner-data-in-text-in">
                                 <span>Рейтинг : 125 место (US Ratings)</span>
@@ -247,7 +248,7 @@ const Home__Header = () => {
                             <img src="https://s3-alpha-sig.figma.com/img/334a/fe8d/4e0149ff34b233d323822c4c71857b73?Expires=1695600000&Signature=qtowyGqvdxZlC-6gpifgZhElIovFyoHkc4PzumloXvhINr9HoDDm9V1VxdbjJUK2pAnOmqJzosobkXaQbkNi2-yQBP1kcVVYfiEcDToVWmlJnDHuYdYDuwUJyw3huc1A0VnLa0WaJoX6FWIUC5EwHFgaZf66e-H12iGELeQneZAn8kMbcr3VtT9uoPodRQaPtxV2w4mlru23vMKmn8cJEZY0HcUt97noWjwYKwmZpXta-qTCEoFqrEi4~li1pWtd8YjdqEENvExy6DbVFWzHM8MeaelAOOzldNcePw51H3szTMmNM409DvosIj77M1vLM0Kgdpzy4yEJaGjvHwrblw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
                             <div className="home__hero-inner-data-in-text">
                                 <h5>Webster University</h5>
-                                <p>Webster University is a private university with its main campus in Webster Groves, Missouri. It has multiple branch locations across the United States and countries countries... Read more</p>
+                                <p>Webster University is a private university with its main campus in Webster Groves, Missouri. It has multiple branch locations across the United States and countries countries... </p><span className="link">Read more</span>
                             </div>
                             <div className="home__hero-inner-data-in-text-in">
                                 <span>Рейтинг : 125 место (US Ratings)</span>
@@ -264,7 +265,7 @@ const Home__Header = () => {
                             <img src="https://s3-alpha-sig.figma.com/img/334a/fe8d/4e0149ff34b233d323822c4c71857b73?Expires=1695600000&Signature=qtowyGqvdxZlC-6gpifgZhElIovFyoHkc4PzumloXvhINr9HoDDm9V1VxdbjJUK2pAnOmqJzosobkXaQbkNi2-yQBP1kcVVYfiEcDToVWmlJnDHuYdYDuwUJyw3huc1A0VnLa0WaJoX6FWIUC5EwHFgaZf66e-H12iGELeQneZAn8kMbcr3VtT9uoPodRQaPtxV2w4mlru23vMKmn8cJEZY0HcUt97noWjwYKwmZpXta-qTCEoFqrEi4~li1pWtd8YjdqEENvExy6DbVFWzHM8MeaelAOOzldNcePw51H3szTMmNM409DvosIj77M1vLM0Kgdpzy4yEJaGjvHwrblw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
                             <div className="home__hero-inner-data-in-text">
                                 <h5>Webster University</h5>
-                                <p>Webster University is a private university with its main campus in Webster Groves, Missouri. It has multiple branch locations across the United States and countries countries... Read more</p>
+                                <p>Webster University is a private university with its main campus in Webster Groves, Missouri. It has multiple branch locations across the United States and countries countries... </p><span className="link">Read more</span>
                             </div>
                             <div className="home__hero-inner-data-in-text-in">
                                 <span>Рейтинг : 125 место (US Ratings)</span>
@@ -282,45 +283,45 @@ const Home__Header = () => {
                 <div className="home__hero-inner-subjects">
                     <p className="subject-p">Самые популярные факультеты</p>
                     <div className="home__hero-inner-subjects-subjects">
-                    <div className="subject-images">
-                        <img src="https://s3-alpha-sig.figma.com/img/ceaf/f8cc/0b162ffc4326639039c4c7f72b68ee83?Expires=1695600000&Signature=O9yijJ6bdUybUZDm~cH4pRAeCmkKKzCCG5D02Uj0Ts1dYt34cEknpxrwhR-efy~ikANhK4k5UbzvaZy5zpiQgTZKC5p3i-ungbDGK7pdZfd0yETZFXVn3JWy9gKy0NZDuZPD~jp4cOIS9VVnC6TpxWqaKiLD6OXWxU5JlzSqZ56an2qJQtCZxw8OfzQMxvzRW-L19oaezAg~QTmS9O4jmZlj1POvOzQ56VSn-3zUmepZKbaIdodrxTg4mz81DOwfVCbOsfT-L~NOxbuvepIU0BfL6Kg6aDWpCVZ~6K2tpfyteEtZ5kSJSX6X0JsKPjHqvs93ruwxHeQZHaSL9-8~yg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
-                        <p>Английский Язык</p>
-                    </div>
-                    <div className="subject-images">
-                        <img src="https://s3-alpha-sig.figma.com/img/26da/89d1/fc5cba7ddcb7c4c02eaea7e93ca0000b?Expires=1695600000&Signature=B77R~C0ddJqUhc-f~2DEGa397F-jpwV1iR5uYtnHC9RjxdIFL3kWrFJpmbU2mrvgE-oLNWTauORzrjPSrfehcvqmzuKyOAYxT~v4SrBDjcbzF31bS8pigXNurXBA7EZjrRMy2ysYrbfT8UTYiQ8T9IV7BKn4Ptpr4bUfpJEAoGZrdEaYLgC5hPMMbs-04qMt0cMqTVks~RRIWuBQfzbj0y3IYd9ZLpRrDnUFXa81d8aMUQErqkb2EKfQZ-AsoRIvXl3p0HrLOyZ3H641mwa0r7Xx~tAAQQ-bWQ8bmx7xLG4QeAnOTA8M9bWM4XMV2WfPnR0OMlMrnkQWUNOpUKepJA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
-                        <p>Бизнес менеджмент</p>
-                    </div>
-                    <div className="subject-images">
-                        <img src="https://s3-alpha-sig.figma.com/img/ad21/31ac/af59d7ca24bb77698839fce0915008bf?Expires=1695600000&Signature=IQZZddA7oeTO6nTXnzx3g9cW0qXY3BIkr70ROGrp1JBIpHwmxECF~ZMJfObQiEiy-nUnGJpZf5ffDe7VUTjy54Q9x9l7ErBTtHvlIHczCgTfHXsky94MAb7-5qU0yxVFTU8F0CRGjSr~V2gX0dG~mFeKZXJWSDRWMw6T5Hm6K1bEA9esYGC5cDpAsX9wB8~-iQYhj58-GZN87RLUVvZNozgd28lq7Nl4XCYT172Eomju2X0XmO6wivxi7HSLiI19WgM7iZCHhA7Sc3sARQRdr1LgodnswsgIGnyWqOjSV-Twor6hAaHmqT6Oyry1tokrYm7krnxxnemr6vSij1kKqA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
-                        <p>Французский язык</p>
-                    </div>
-                    <div className="subject-images">
-                        <img src="https://s3-alpha-sig.figma.com/img/5344/9229/3216c5a4ac6ec7f5d8f1ec53141a9aa5?Expires=1695600000&Signature=EyImonJexmpNt0WzkakGhPBFvp5ux239tRd1Lzny0VqpEPMnPjaHaxeqAKFLjSppXm~FGPnJfMoFCJyCBX8xTNr6hAM8nBWucrMJygCBaXvBMLPwLI5I0KEZfVhnOph7y6t8WcQx9wO5FBIlRLS0edSpqMCNCSBn1niotjOh8vfbUI363l7rGJNtyEKOwHCvP8yeoG9qxJW0C4XtvdzJbgpWTZk6ZHaoMurRi3CZ0dJsT9R-8B~OWsbR0-G-KolWctQETDdFKHjSUftkm3g9GBPeYzxt7RP93SuWY~aP9xqkRrxrvFBuHq7-X~N3~vn6FC6fxTAifPN8~0EtNxXOIw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
-                        <p>Отельный бизнес</p>
-                    </div>
-                    <div className="subject-images">
-                        <img src="https://s3-alpha-sig.figma.com/img/fa13/174b/fbba039ebfe9502453cc4d6113ffc56a?Expires=1695600000&Signature=aTjBK-2k5INYNhmHazA~1qq8S44qgDj5f9akiVz4obsQNM5ccVZZetuPSYyzKa-rzOOUCllMSDl7PSz9u-6yb15Kv2rHU9G8Epi5NuqXv4~QhysHbhhKWkN0fJJXa9yOiJt8h0IAj-wBqM2UxxGdrt909s~TkYpV91r8kd6F1bCxucV0-fFb8SfLn8k813S8MoYIL16p5TpTZ7Sz9uaPfqnNJObXF-T~KyGxvu2d~TcE~Z5kSUu0Ag93o8wFIF8PcrKeuXH9uaiYKVDbLHOrOjkXfLgK7uIvyePVTkQgtTS-JgAVXgt2VCp4yhjTOHBdOHnYWLMUHS4gAQMnqXjgqA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
-                        <p>IT</p>
-                    </div>
-                    <div className="subject-images">
-                        <img src="https://s3-alpha-sig.figma.com/img/654a/7dd3/c1d110e96f277310a556fce286fc3c59?Expires=1695600000&Signature=T31L5BVwNsQ2tV2PIUfKSV19JzgyE~uUe5ICaSVkqpAnGcGne9xK574dYOtGI18-PIaigveHu7v5Aked5eDlYdYDuepTaFU3WfihalDb8bkJGHGDpVjx21eJVxl~eYeqHzgmOsio-JX7k3QG1rT5rt6zMMfre6xnyMdqlA37bHJfSkE92FMwyKV~DLwcPihdrTX4tWHFYBAoj4utskhZRevlr8St2lPMHYFwzL6CKWFqyhir8WiSNu2-Strwclgjb52uzt8A1mzpRMvroktivhUt9acfC2rAJJNSdfA-W-wquzjghdMUfuzmRDsw016RNCCQBq8mJEDAYG54AYx-sw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
-                        <p>Финансы</p>
-                    </div>
-                    <div className="subject-images">
-                        <img src="https://s3-alpha-sig.figma.com/img/8295/29a9/5fccd94bac2841afff17e9d39f7726a1?Expires=1695600000&Signature=TpcN6jDyb6wqUze8xaAp66KiL1MODPedt8tr5c8xunMmZ8afAyu3SY1-3EdMCe-3FsVCBoInAE-W6xfepImTq5RiEW151Q0AiNFHUEHhIEZVwQEKJQ879FeOXbHrl6nSu6s75I1LzT41tDYHrlqIJe8-OI7lsLvWy0cTLp9YzDAfBmtos0R8FUVom4HAYNaDVDZtygLXMQJBaXB8Bndp5f5ROu0ZVslNxkep9j2nWfkXE~wl~gx~zGlo4Ph6kKOxzfgmrsM479MIAWhVblm6eJhmrLnu44RdeHBUuABSV2muou96HEO4LMxiYVTBBCU5ATK8pTiC1fvjzG9AIypM8w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
-                        <p>Дипломатия</p>
-                    </div>
-                    <div className="subject-images">
-                        <img src="https://s3-alpha-sig.figma.com/img/d676/a0f9/e01e2b1ed22a918dbcffeca178c59064?Expires=1695600000&Signature=Yt0B2bNKZyxBJDMZ3yALMat8qzQ0BjdcKMnvuw9paWUyy1s~W33eBM0owqpDzKIwQionpc59Vin~AHXnLZ~~mGWltPbyFsjDGfEcNqBjKUgkpE6DcxMcmtSA9TzvFkM~9SOi1piDc5qK-4~wR1oeolI0KdArY3vaZGGMZRkL3P90dOjGb1-g8kmN4yn4XzmDSGTs3oyivcdSD4Tfgwq9~JL6~WQph9GTkqm~-Pa8nqLc77jrN9tPP674bGZI6qeTnELzK~SIJskXM-7Fx-TDgEh13okJkXjwOqey0CflD8h--Q5ebmAE4YxAB9SsIwtD9b181PB~hTO53shu4R9tiA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
-                        <p>Литература</p>
-                    </div>
-                    <div className="subject-images">
-                        <img src="https://s3-alpha-sig.figma.com/img/ad21/31ac/af59d7ca24bb77698839fce0915008bf?Expires=1695600000&Signature=IQZZddA7oeTO6nTXnzx3g9cW0qXY3BIkr70ROGrp1JBIpHwmxECF~ZMJfObQiEiy-nUnGJpZf5ffDe7VUTjy54Q9x9l7ErBTtHvlIHczCgTfHXsky94MAb7-5qU0yxVFTU8F0CRGjSr~V2gX0dG~mFeKZXJWSDRWMw6T5Hm6K1bEA9esYGC5cDpAsX9wB8~-iQYhj58-GZN87RLUVvZNozgd28lq7Nl4XCYT172Eomju2X0XmO6wivxi7HSLiI19WgM7iZCHhA7Sc3sARQRdr1LgodnswsgIGnyWqOjSV-Twor6hAaHmqT6Oyry1tokrYm7krnxxnemr6vSij1kKqA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
-                        <p>Французский язык</p>
+                        <div className="subject-images">
+                            <img src="https://s3-alpha-sig.figma.com/img/ceaf/f8cc/0b162ffc4326639039c4c7f72b68ee83?Expires=1695600000&Signature=O9yijJ6bdUybUZDm~cH4pRAeCmkKKzCCG5D02Uj0Ts1dYt34cEknpxrwhR-efy~ikANhK4k5UbzvaZy5zpiQgTZKC5p3i-ungbDGK7pdZfd0yETZFXVn3JWy9gKy0NZDuZPD~jp4cOIS9VVnC6TpxWqaKiLD6OXWxU5JlzSqZ56an2qJQtCZxw8OfzQMxvzRW-L19oaezAg~QTmS9O4jmZlj1POvOzQ56VSn-3zUmepZKbaIdodrxTg4mz81DOwfVCbOsfT-L~NOxbuvepIU0BfL6Kg6aDWpCVZ~6K2tpfyteEtZ5kSJSX6X0JsKPjHqvs93ruwxHeQZHaSL9-8~yg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+                            <p>Английский Язык</p>
+                        </div>
+                        <div className="subject-images">
+                            <img src="https://s3-alpha-sig.figma.com/img/26da/89d1/fc5cba7ddcb7c4c02eaea7e93ca0000b?Expires=1695600000&Signature=B77R~C0ddJqUhc-f~2DEGa397F-jpwV1iR5uYtnHC9RjxdIFL3kWrFJpmbU2mrvgE-oLNWTauORzrjPSrfehcvqmzuKyOAYxT~v4SrBDjcbzF31bS8pigXNurXBA7EZjrRMy2ysYrbfT8UTYiQ8T9IV7BKn4Ptpr4bUfpJEAoGZrdEaYLgC5hPMMbs-04qMt0cMqTVks~RRIWuBQfzbj0y3IYd9ZLpRrDnUFXa81d8aMUQErqkb2EKfQZ-AsoRIvXl3p0HrLOyZ3H641mwa0r7Xx~tAAQQ-bWQ8bmx7xLG4QeAnOTA8M9bWM4XMV2WfPnR0OMlMrnkQWUNOpUKepJA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+                            <p>Бизнес менеджмент</p>
+                        </div>
+                        <div className="subject-images">
+                            <img src="https://s3-alpha-sig.figma.com/img/ad21/31ac/af59d7ca24bb77698839fce0915008bf?Expires=1695600000&Signature=IQZZddA7oeTO6nTXnzx3g9cW0qXY3BIkr70ROGrp1JBIpHwmxECF~ZMJfObQiEiy-nUnGJpZf5ffDe7VUTjy54Q9x9l7ErBTtHvlIHczCgTfHXsky94MAb7-5qU0yxVFTU8F0CRGjSr~V2gX0dG~mFeKZXJWSDRWMw6T5Hm6K1bEA9esYGC5cDpAsX9wB8~-iQYhj58-GZN87RLUVvZNozgd28lq7Nl4XCYT172Eomju2X0XmO6wivxi7HSLiI19WgM7iZCHhA7Sc3sARQRdr1LgodnswsgIGnyWqOjSV-Twor6hAaHmqT6Oyry1tokrYm7krnxxnemr6vSij1kKqA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+                            <p>Французский язык</p>
+                        </div>
+                        <div className="subject-images">
+                            <img src="https://s3-alpha-sig.figma.com/img/5344/9229/3216c5a4ac6ec7f5d8f1ec53141a9aa5?Expires=1695600000&Signature=EyImonJexmpNt0WzkakGhPBFvp5ux239tRd1Lzny0VqpEPMnPjaHaxeqAKFLjSppXm~FGPnJfMoFCJyCBX8xTNr6hAM8nBWucrMJygCBaXvBMLPwLI5I0KEZfVhnOph7y6t8WcQx9wO5FBIlRLS0edSpqMCNCSBn1niotjOh8vfbUI363l7rGJNtyEKOwHCvP8yeoG9qxJW0C4XtvdzJbgpWTZk6ZHaoMurRi3CZ0dJsT9R-8B~OWsbR0-G-KolWctQETDdFKHjSUftkm3g9GBPeYzxt7RP93SuWY~aP9xqkRrxrvFBuHq7-X~N3~vn6FC6fxTAifPN8~0EtNxXOIw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+                            <p>Отельный бизнес</p>
+                        </div>
+                        <div className="subject-images">
+                            <img src="https://s3-alpha-sig.figma.com/img/fa13/174b/fbba039ebfe9502453cc4d6113ffc56a?Expires=1695600000&Signature=aTjBK-2k5INYNhmHazA~1qq8S44qgDj5f9akiVz4obsQNM5ccVZZetuPSYyzKa-rzOOUCllMSDl7PSz9u-6yb15Kv2rHU9G8Epi5NuqXv4~QhysHbhhKWkN0fJJXa9yOiJt8h0IAj-wBqM2UxxGdrt909s~TkYpV91r8kd6F1bCxucV0-fFb8SfLn8k813S8MoYIL16p5TpTZ7Sz9uaPfqnNJObXF-T~KyGxvu2d~TcE~Z5kSUu0Ag93o8wFIF8PcrKeuXH9uaiYKVDbLHOrOjkXfLgK7uIvyePVTkQgtTS-JgAVXgt2VCp4yhjTOHBdOHnYWLMUHS4gAQMnqXjgqA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+                            <p>IT</p>
+                        </div>
+                        <div className="subject-images">
+                            <img src="https://s3-alpha-sig.figma.com/img/654a/7dd3/c1d110e96f277310a556fce286fc3c59?Expires=1695600000&Signature=T31L5BVwNsQ2tV2PIUfKSV19JzgyE~uUe5ICaSVkqpAnGcGne9xK574dYOtGI18-PIaigveHu7v5Aked5eDlYdYDuepTaFU3WfihalDb8bkJGHGDpVjx21eJVxl~eYeqHzgmOsio-JX7k3QG1rT5rt6zMMfre6xnyMdqlA37bHJfSkE92FMwyKV~DLwcPihdrTX4tWHFYBAoj4utskhZRevlr8St2lPMHYFwzL6CKWFqyhir8WiSNu2-Strwclgjb52uzt8A1mzpRMvroktivhUt9acfC2rAJJNSdfA-W-wquzjghdMUfuzmRDsw016RNCCQBq8mJEDAYG54AYx-sw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+                            <p>Финансы</p>
+                        </div>
+                        <div className="subject-images">
+                            <img src="https://s3-alpha-sig.figma.com/img/8295/29a9/5fccd94bac2841afff17e9d39f7726a1?Expires=1695600000&Signature=TpcN6jDyb6wqUze8xaAp66KiL1MODPedt8tr5c8xunMmZ8afAyu3SY1-3EdMCe-3FsVCBoInAE-W6xfepImTq5RiEW151Q0AiNFHUEHhIEZVwQEKJQ879FeOXbHrl6nSu6s75I1LzT41tDYHrlqIJe8-OI7lsLvWy0cTLp9YzDAfBmtos0R8FUVom4HAYNaDVDZtygLXMQJBaXB8Bndp5f5ROu0ZVslNxkep9j2nWfkXE~wl~gx~zGlo4Ph6kKOxzfgmrsM479MIAWhVblm6eJhmrLnu44RdeHBUuABSV2muou96HEO4LMxiYVTBBCU5ATK8pTiC1fvjzG9AIypM8w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+                            <p>Дипломатия</p>
+                        </div>
+                        <div className="subject-images">
+                            <img src="https://s3-alpha-sig.figma.com/img/d676/a0f9/e01e2b1ed22a918dbcffeca178c59064?Expires=1695600000&Signature=Yt0B2bNKZyxBJDMZ3yALMat8qzQ0BjdcKMnvuw9paWUyy1s~W33eBM0owqpDzKIwQionpc59Vin~AHXnLZ~~mGWltPbyFsjDGfEcNqBjKUgkpE6DcxMcmtSA9TzvFkM~9SOi1piDc5qK-4~wR1oeolI0KdArY3vaZGGMZRkL3P90dOjGb1-g8kmN4yn4XzmDSGTs3oyivcdSD4Tfgwq9~JL6~WQph9GTkqm~-Pa8nqLc77jrN9tPP674bGZI6qeTnELzK~SIJskXM-7Fx-TDgEh13okJkXjwOqey0CflD8h--Q5ebmAE4YxAB9SsIwtD9b181PB~hTO53shu4R9tiA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+                            <p>Литература</p>
+                        </div>
+                        <div className="subject-images">
+                            <img src="https://s3-alpha-sig.figma.com/img/ad21/31ac/af59d7ca24bb77698839fce0915008bf?Expires=1695600000&Signature=IQZZddA7oeTO6nTXnzx3g9cW0qXY3BIkr70ROGrp1JBIpHwmxECF~ZMJfObQiEiy-nUnGJpZf5ffDe7VUTjy54Q9x9l7ErBTtHvlIHczCgTfHXsky94MAb7-5qU0yxVFTU8F0CRGjSr~V2gX0dG~mFeKZXJWSDRWMw6T5Hm6K1bEA9esYGC5cDpAsX9wB8~-iQYhj58-GZN87RLUVvZNozgd28lq7Nl4XCYT172Eomju2X0XmO6wivxi7HSLiI19WgM7iZCHhA7Sc3sARQRdr1LgodnswsgIGnyWqOjSV-Twor6hAaHmqT6Oyry1tokrYm7krnxxnemr6vSij1kKqA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+                            <p>Французский язык</p>
+                        </div>
                     </div>
                 </div>
-                </div>
-                
+
                 <div className="home__hero-inner-comments">
                     <p className="home__hero-inner-comments-p">Как мы работаем</p>
 
@@ -417,7 +418,7 @@ const Home__Header = () => {
                         <div className="home__hero-inner-icons1">
                             <div className="icons">
                                 <div className="hero-inner-icons-icon-svg">
-                                    
+
                                 </div>
                                 <p>Получаете ответ от Университета</p>
                             </div>
