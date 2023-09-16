@@ -9,20 +9,18 @@ import Home from "./pages/AdminPanel/pages/Home/Home";
 const App = () => {
   return (
     <React.Fragment>
-
       <Routes>
-        <Route path="/" element={<Outlet/>}>
-          <Route path="" element={<HomePage__Home/>}/>
-          <Route path="search" element={<Home__Search/>}/>
-          <Route path="search/id" element={<h1>searchid</h1>}/>
+        <Route path="/" element={<Outlet />}>
+          <Route path="" element={<HomePage__Home />} />
+          <Route path="search" element={<Home__Search />} />
+          <Route path="search/id" element={<h1>searchid</h1>} />
         </Route>
-        <Route path="/login" element={<Outlet/>}>
-          <Route path="" element={<Login/>}/>
-          <Route path="register" element={<h1>register</h1>}/>
+        <Route path="/login" element={<Outlet />}>
+          <Route path="" element={<Login />} />
+          <Route path="register" element={<h1>register</h1>} />
         </Route>
-        <Route path="admin" element={<Outlet/>}>
-          <Route path="" element={<Home/>}/>
-         
+        <Route path="admin" element={<Outlet />}>
+          <Route path="" element={<Home />} />
         </Route>
       </Routes>
     </React.Fragment>
