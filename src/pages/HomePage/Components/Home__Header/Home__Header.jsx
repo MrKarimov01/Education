@@ -281,8 +281,7 @@ const Home__Header = () => {
                 </div>
                 <div className="home__hero-inner-subjects">
                     <p className="subject-p">Самые популярные факультеты</p>
-                </div>
-                <div className="home__hero-inner-subjects-subjects">
+                    <div className="home__hero-inner-subjects-subjects">
                     <div className="subject-images">
                         <img src="https://s3-alpha-sig.figma.com/img/ceaf/f8cc/0b162ffc4326639039c4c7f72b68ee83?Expires=1695600000&Signature=O9yijJ6bdUybUZDm~cH4pRAeCmkKKzCCG5D02Uj0Ts1dYt34cEknpxrwhR-efy~ikANhK4k5UbzvaZy5zpiQgTZKC5p3i-ungbDGK7pdZfd0yETZFXVn3JWy9gKy0NZDuZPD~jp4cOIS9VVnC6TpxWqaKiLD6OXWxU5JlzSqZ56an2qJQtCZxw8OfzQMxvzRW-L19oaezAg~QTmS9O4jmZlj1POvOzQ56VSn-3zUmepZKbaIdodrxTg4mz81DOwfVCbOsfT-L~NOxbuvepIU0BfL6Kg6aDWpCVZ~6K2tpfyteEtZ5kSJSX6X0JsKPjHqvs93ruwxHeQZHaSL9-8~yg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
                         <p>Английский Язык</p>
@@ -320,6 +319,8 @@ const Home__Header = () => {
                         <p>Французский язык</p>
                     </div>
                 </div>
+                </div>
+                
                 <div className="home__hero-inner-comments">
                     <p className="home__hero-inner-comments-p">Как мы работаем</p>
 
@@ -416,19 +417,7 @@ const Home__Header = () => {
                         <div className="home__hero-inner-icons1">
                             <div className="icons">
                                 <div className="hero-inner-icons-icon-svg">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="99" viewBox="0 0 100 99" fill="none">
-                                        <g clip-path="url(#clip0_101_2043)">
-                                            <path d="M99.5339 38.25C99.5333 37.5543 99.2128 36.8981 98.6614 36.4724C98.6614 36.4724 93.1249 32.1809 85.954 26.5575V18C85.954 13.0364 81.9147 8.99993 76.9473 8.99993H63.9033C60.6949 6.38156 57.9106 4.06673 56.0511 2.41909C54.2623 0.837906 52.13 0.000272013 49.9986 6.10749e-05C47.8653 -0.000149863 45.7326 0.838749 43.9463 2.4193C42.0868 4.06694 39.3029 6.38177 36.0921 9.00014H22.9072C17.9399 9.00014 13.9004 13.0364 13.9004 18.0002V26.6681C6.80093 32.2362 1.33592 36.4703 1.33381 36.4724C0.782434 36.8981 0.461993 37.5543 0.46136 38.25H0.460938V90C0.460938 94.9636 4.50022 99.0001 9.46769 99.0001H90.5278C95.495 99.0001 99.5345 94.9638 99.5345 90V38.25H99.5339ZM85.954 32.2761C89.1365 34.7657 91.8353 36.8673 93.6106 38.2479C91.8378 39.6228 89.1339 41.7242 85.954 44.2088V32.2761ZM46.9324 5.78756C48.8631 4.07812 51.13 4.0758 53.0651 5.78967C54.0786 6.68531 55.3566 7.77375 56.8247 8.99993H43.1724C44.6408 7.77375 45.919 6.68446 46.9324 5.78756ZM18.4039 18C18.4039 15.5194 20.4247 13.5001 22.9072 13.5001H76.9473C79.4297 13.5001 81.4505 15.5194 81.4505 18V47.7353C71.3824 55.6372 58.7849 65.6502 53.0649 70.7102C52.5218 71.1913 51.3893 72 49.927 72C48.8582 72 47.8271 71.5672 46.8596 70.7102C41.0782 65.5947 28.4524 55.544 18.4039 47.6445V18ZM13.9007 32.3864V44.1122C10.7826 41.6718 8.13019 39.6063 6.38487 38.2502C8.13125 36.8905 10.7815 34.8265 13.9007 32.3864ZM95.0311 90.0002C95.0311 92.4808 93.0102 94.5001 90.5278 94.5001H9.46769C6.98522 94.5001 4.96442 92.4808 4.96442 90.0002V42.844C14.356 50.1488 36.0841 67.1854 43.8739 74.0809C45.6638 75.663 47.7572 76.5002 49.9274 76.5002C52.1131 76.5002 54.2878 75.641 56.0513 74.0809C64.1467 66.9175 86.3059 49.6189 95.0311 42.8426V90.0002Z" fill="#000D7F" />
-                                            <path d="M29.7332 27.0001H70.1929C71.4375 27.0001 72.4447 25.9937 72.4447 24.75C72.4447 23.5063 71.4375 22.4999 70.1929 22.4999H29.7332C28.4886 22.4999 27.4814 23.5063 27.4814 24.75C27.4814 25.9937 28.4886 27.0001 29.7332 27.0001Z" fill="#000D7F" />
-                                            <path d="M72.4445 38.25C72.4445 37.0063 71.4373 35.9999 70.1927 35.9999H29.7332C28.4886 35.9999 27.4814 37.0063 27.4814 38.25C27.4814 39.4937 28.4886 40.5001 29.7332 40.5001H70.1929C71.4373 40.5001 72.4445 39.4937 72.4445 38.25Z" fill="#000D7F" />
-                                            <path d="M63.437 51.75C63.437 50.5063 62.4299 49.4999 61.1853 49.4999H38.6687C37.4241 49.4999 36.417 50.5063 36.417 51.75C36.417 52.9937 37.4241 54.0001 38.6687 54.0001H61.1855C62.4299 54.0001 63.437 52.9937 63.437 51.75Z" fill="#000D7F" />
-                                        </g>
-                                        <defs>
-                                            <clipPath id="clip0_101_2043">
-                                                <rect width="99.0734" height="99" fill="white" transform="translate(0.460938 6.10352e-05)" />
-                                            </clipPath>
-                                        </defs>
-                                    </svg>
+                                    
                                 </div>
                                 <p>Получаете ответ от Университета</p>
                             </div>
@@ -490,34 +479,7 @@ const Home__Header = () => {
 
                     </div>
                 </div>
-                <div className="home__hero-inner-carousel">
-                    <p>Что говорят наши студенты?</p>
-                    <div className="home__hero-inner-carousel-in">
-                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                </div>
-                                <div class="carousel-item">
-                                </div>
-                                <div class="carousel-item">
-                                </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                <div className="home__hero-inner-carousel"></div>
 
             </section>
         </>
