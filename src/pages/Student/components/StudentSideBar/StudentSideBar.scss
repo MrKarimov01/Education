@@ -1,4 +1,4 @@
-.StudentSideBar{
+.AdminSideBar{
     height: 100vh;
     width: 20%;
     background-color: var(--blue-backgrounds);
@@ -87,7 +87,7 @@
             
         }
     }
-    .StudentSideBar .SidebarBox a svg{
+    .AdminSideBar .SidebarBox a svg{
         width: 30px !important;
         height: 30% !important;
     }
@@ -106,7 +106,7 @@
             display: none !important;
         }
     }
-    .StudentSideBar{
+    .AdminSideBar{
         width: auto;
     }
     

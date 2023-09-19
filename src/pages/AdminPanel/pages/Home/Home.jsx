@@ -22,6 +22,7 @@ const Home = () => {
           </div>
         </div>
         <Reatings student={number} universitet={universitet} startni={startni} fakultet={fakultet}/>
+        
       </div>
     </div>
   );

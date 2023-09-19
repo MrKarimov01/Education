@@ -5,6 +5,7 @@ import { Outlet, Route, Routes } from "react-router-dom";
 import Home__Search from "./pages/HomePage/pages/Home__Search/Home__Search";
 import Login from "./pages/LoginPage/login";
 import Home from "./pages/AdminPanel/pages/Home/Home";
+import UniverSinglepage from "./pages/Student/pages/UniverSinglepage/UniverSinglepage";
 
 const App = () => {
   return (
@@ -21,6 +22,9 @@ const App = () => {
         </Route>
         <Route path="admin" element={<Outlet />}>
           <Route path="" element={<Home />} />
+        </Route>
+        <Route path="student" element={<Outlet />}>
+          <Route path="" element={<UniverSinglepage />} />
         </Route>
       </Routes>
     </React.Fragment>
