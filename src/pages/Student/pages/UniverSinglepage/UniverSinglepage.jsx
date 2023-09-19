@@ -1,11 +1,11 @@
 import React from "react";
-import StudentSideBar from "../../components/StudentSideBar/StudentSideBar";
+
 
 const UniverSinglepage =()=>{
 
     return(
         <div className="UniverSinglepage">
-            <StudentSideBar/>
+            <h1>salom</h1>
         </div>
     )
 }

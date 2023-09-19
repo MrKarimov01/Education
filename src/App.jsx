@@ -6,6 +6,8 @@ import Home__Search from "./pages/HomePage/pages/Home__Search/Home__Search";
 import Login from "./pages/LoginPage/login";
 import Home from "./pages/AdminPanel/pages/Home/Home";
 import UniverSinglepage from "./pages/Student/pages/UniverSinglepage/UniverSinglepage";
+import AdminPanel from "./pages/AdminPanel/AdminPanel";
+
 
 const App = () => {
   return (
@@ -20,8 +22,9 @@ const App = () => {
           <Route path="" element={<Login />} />
           <Route path="register" element={<h1>register</h1>} />
         </Route>
-        <Route path="admin" element={<Outlet />}>
+        <Route path="admin" element={<AdminPanel />}>
           <Route path="" element={<Home />} />
+          <Route path="institute" element={<h1>institute</h1>} />
         </Route>
         <Route path="student" element={<Outlet />}>
           <Route path="" element={<UniverSinglepage />} />
