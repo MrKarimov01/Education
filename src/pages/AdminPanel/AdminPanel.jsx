@@ -1,8 +1,8 @@
 import React from 'react'
 import { NavLink, Outlet } from "react-router-dom";
 import { Glavniy, Student, Universitet } from '../../assets/icons';
-import AdminSideBar from './Components/AdminSideBar/AdminSideBar';
-import "./AdminPanel.scss"
+import AdminSideBar from "./Components/AdminSideBar/AdminSideBar"
+
 
 const AdminPanel = () => {
   return (

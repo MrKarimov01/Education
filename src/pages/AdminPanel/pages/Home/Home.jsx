@@ -1,9 +1,8 @@
 import React from "react";
 import "./Home.scss";
-import AdminSideBar from "../../Components/AdminSideBar/AdminSideBar";
+
 import Reatings from "../../Components/Reatings/Reatings";
-import { NavLink } from "react-router-dom";
-import { Glavniy, Student, Universitet } from "../../../../assets/icons";
+
 
 
 const number = 1424;

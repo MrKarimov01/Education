@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./AdminSideBar.scss"
-import { Exit } from "../../../../assets/icons";
+import { Exit, Side_Logo } from "../../../../assets/icons";
 
 const AdminSideBar = (props) => {
   function LogOut() {
