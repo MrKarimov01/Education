@@ -5,4 +5,76 @@
     flex-direction: row;
     justify-content: flex-start;
     position: relative;
+
+    
+}
+.glavni{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    flex-grow: 8;
+    border: 5px solid red;
+    padding: 0 30px 0 30px;
+    height: auto;
+  
+    
+}
+.glavni_user{
+    padding-top: 27px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    b{
+        color: var(--main-text-color);
+        font-family: 'Raleway', sans-serif;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        
+    }
+    .adminuser_info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            
+        }
+        p{
+            color: var(--main-text-color);
+            font-family: 'Raleway', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin-left: 12px;
+        }
+    }
+}
+@media screen and (max-width: 460px)   {
+    .adminuser_info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            
+        }
+        p{
+            display: none;
+        }
+    }
+    
 }
