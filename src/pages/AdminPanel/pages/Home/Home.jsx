@@ -1,7 +1,8 @@
 import React from "react";
 import "./Home.scss";
 import AdminSideBar from "../../Components/AdminSideBar/AdminSideBar";
-import Reatings from "../../Components/AdminSideBar/Reatings/Reatings";
+import Reatings from "../../Components/Reatings/Reatings";
+
 
 const number = 1424;
 const universitet = 58;
