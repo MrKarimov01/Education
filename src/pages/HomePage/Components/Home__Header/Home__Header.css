@@ -413,7 +413,31 @@
   .home__hero-inner-subjects-subjects .subject-images {
     width: 400px;
   }
+  .home__hero-inner-footer .home__hero-inner-information .informa{
+    display: none;
+  }
+  .home__hero-inner-footer .home__hero-inner-information .infor{
+    width: 100%;
+  }
+  .home__hero-inner-footer .home__hero-inner-information .infor p{
+    font-size: 20px;
+  }
+  .home__hero-inner-footer .home__hero-inner-information .information {
+    width: 100%;
+  }
+  .home__hero-inner-footer .home__hero-inner-information .information .information-inner{
 
+    margin-left: 0;
+    width: 90%;
+  }
+  .information .information-inner .information-inner-global .global-p {
+    font-size: 15px;
+    width: 100%;
+  }
+  .home__hero-inner-footer .final .reserved{
+    font-size: 15px;
+    margin-left: 15px;
+  }
 }
 
 .home__hero-inner-data-in {
@@ -699,51 +723,51 @@
   height: 440px;
   flex-direction: column;
   background: #E2F1F8;
+  border: 5px solid red;
 }
-
-.home__hero-inner-phone input {
-  padding: 15px;
+.home__hero-inner-phone-in{
+  display: flex;
+  flex-direction: column;
+}
+.home__hero-inner-phone-in input{
+  padding: 25px;
   border-radius: 5px;
-  width: 19%;
-  margin: 20px;
   color: #000D7F;
   border: #000D7F;
   font-size: 20px;
 }
 
-.home__hero-inner-phone button {
+.home__hero-inner-phone-in button {
   border-radius: 5px;
   background: #000D7F;
   color: white;
-  padding: 20px;
+  padding: 25px;
   border: none;
+  font-size: 20px;
 }
 
-.home__hero-inner-phone .phone-contact {
-  border: 5px solid red;
-  display: flex;
-  align-items: center;
-}
 
-.home__hero-inner-phone .phone_contact {
-  font-size: 15px;
-}
 
+
+
+.home__hero-inner-phone .home__hero-inner-phone-in  p{
+  font-size: 12px;
+  margin: 10px;
+}
 .phone-contact .check-box {
   width: 25px;
   height: 25px;
   flex-shrink: 0;
   border-radius: 5px;
   background: var(--blue-backgrounds);
-  border: 5px solid green;
-
 }
 
 .home__hero-inner-phone .phone-contact {
-  width: 19%;
   display: flex;
+  align-items: center;
   flex-direction: row;
-  margin-bottom: 20px;
+  margin: 20px;
+  width: 100%;
 }
 
 .home__hero-inner-information {
@@ -851,9 +875,7 @@
 .information .information-inner .information-inner-global{
   margin-top: 40px;
 }
-.information .information-inner .information-inner-global .global-p{
-  margin-left: 50px;
-}
+
 .information .information-inner .information-inner-global .global-icons {
   display: flex;
   justify-content: space-around;

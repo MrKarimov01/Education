@@ -487,15 +487,16 @@ const Home__Header = () => {
                 <p className="footer-p">Получите бесплатную консультацию</p>
                 <div className="home__hero-inner-phone">
                     <p>Оставьте ваш телефон номер и мы свяжемся с вами</p>
+                    <div className="home__hero-inner-phone-in">
+                        <input type="text" placeholder="+998 9x xxx xx xx" />
+                        <div className="phone-contact">
+                            <input className="check-box" type="checkbox" />
+                          
+                                <p className="phone_contact">Написать в телеграм</p>
 
-                    <input type="text" placeholder="+998 9x xxx xx xx" />
-                    <div className="phone-contact">
-                        <input className="check-box" type="checkbox" />
-
-                        <p className="phone_contact">Написать в телеграм</p>
-
+                        </div>
+                        <button>Заказать бесплатную консультацию</button>
                     </div>
-                    <button>Заказать бесплатную консультацию</button>
                 </div>
                 <div className="home__hero-inner-information">
                     <div className="infor">
@@ -576,11 +577,11 @@ const Home__Header = () => {
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
                 <div className="final">
-                        <p className="reserved">© 2021 All rights reserved</p>
-                    </div>
+                    <p className="reserved">© 2021 All rights reserved</p>
+                </div>
             </div>
         </>
 
