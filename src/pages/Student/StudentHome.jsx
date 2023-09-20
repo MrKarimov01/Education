@@ -1,13 +1,14 @@
 import React from 'react'
-import { NavLink, Outlet } from "react-router-dom";
-import { Glavniy, Student, Universitet } from '../../assets/icons';
-import AdminSideBar from "./Components/AdminSideBar/AdminSideBar"
+import AdminSideBar from '../AdminPanel/Components/AdminSideBar/AdminSideBar'
+import { NavLink, Outlet } from 'react-router-dom'
+import { Glavniy, Student, Universitet } from '../../assets/icons'
+import "./Student.scss"
 
 
 
-const AdminPanel = () => {
+const StudentHome = () => {
   return (
-    <div className='Admin_Home'>
+    <div className='StudentHome'>
         <AdminSideBar>
             <NavLink to={""} className="SidebarLinks sideHome">
                 <Glavniy/>
@@ -28,4 +29,4 @@ const AdminPanel = () => {
   )
 }
 
-export default AdminPanel
+export default StudentHome

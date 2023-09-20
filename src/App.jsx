@@ -5,8 +5,9 @@ import { Outlet, Route, Routes } from "react-router-dom";
 import Home__Search from "./pages/HomePage/pages/Home__Search/Home__Search";
 import Login from "./pages/LoginPage/login";
 import Home from "./pages/AdminPanel/pages/Home/Home";
-import UniverSinglepage from "./pages/Student/pages/UniverSinglepage/UniverSinglepage";
+
 import AdminPanel from "./pages/AdminPanel/AdminPanel";
+import StudentHome from "./pages/Student/StudentHome";
 
 
 const App = () => {
@@ -26,8 +27,9 @@ const App = () => {
           <Route path="" element={<Home />} />
           <Route path="institute" element={<h1>institute</h1>} />
         </Route>
-        <Route path="student" element={<Outlet />}>
-          <Route path="" element={<UniverSinglepage />} />
+        <Route path="student" element={<StudentHome />}>
+          <Route path="" element={<h1>salom</h1>} />
+          <Route path="institute" element={<h1>institute</h1>} />
         </Route>
       </Routes>
     </React.Fragment>

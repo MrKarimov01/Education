@@ -1,15 +1,15 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import "./AdminSideBar.scss"
 import { Exit, Side_Logo } from "../../../../assets/icons";
+import "./AdminSideBar.scss"
 
 const AdminSideBar = (props) => {
-  function LogOut() {
-    localStorage.clear()
-    setTimeout(() => {
+  // function LogOut() {
+  //   localStorage.clear()
+  //   setTimeout(() => {
       
-    }, 500);
-  }
+  //   }, 500);
+  // }
   return (
     <div className="AdminSideBar">
       <Link to={"/"} className="logo">
