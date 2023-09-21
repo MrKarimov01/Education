@@ -22,6 +22,7 @@ const StudentHome = () => {
                 <Student/>
                 <span>Студенты</span>
             </NavLink>
+         
         </AdminSideBar>
         
         <Outlet />
