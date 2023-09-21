@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.univer_name{
+    width: 578px;
+    height: 31px;
+    top:30px;
+    left: 319px;
+    size: 26px;
+    line-height: 30,52px;
+}
+.univer__single{
+    width: 1091px;
+    height: 428px;
+    border-radius: 14px;
+    top: 132px;
+    left: 319px;
+    color:#FFFFFF;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+.zayaf_text1{
+    width: 643px;
+    height: 62px;
+    top: 415px;
+    left: 543px;
+    size: 26px;
+    line-height: 30.52px;
+    text-align: center;
+    color: #000000;
+}
+.zayaf_text2{
+    width: 643px;
+    height: 26px;
+    top: 491px;
+    left: 552px;
+    size: 22px;
+    line-height: 25.83px;
+    color: #000000;
+}
+.span_text{
+    width: 643px;
+    height: 26px;
+    top: 491px;
+    left: 552px;
+    size: 22px;
+    line-height: 25.83px;
+    color: #000D7F;
+}
