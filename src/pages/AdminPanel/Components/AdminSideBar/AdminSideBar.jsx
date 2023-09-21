@@ -1,15 +1,18 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import { Exit, Side_Logo } from "../../../../assets/icons";
 import "./AdminSideBar.scss"
 
 const AdminSideBar = (props) => {
-  // function LogOut() {
-  //   localStorage.clear()
-  //   setTimeout(() => {
-      
-  //   }, 500);
-  // }
+  const navigati = useNavigate()
+  function LogOut() {
+    localStorage.clear()
+    setTimeout(() => {
+      navigati("/")
+    }, 500);
+  }
+
+  
   return (
     <div className="AdminSideBar">
       <Link to={"/"} className="logo">
@@ -32,10 +35,10 @@ const AdminSideBar = (props) => {
           </NavLink> */}
           {props.children}
         
-          <NavLink to={"exit"} className="SidebarLinks sideExit">
+          <button onClick={LogOut} className="SidebarLinks sideExit">
             <Exit/>
             <span>Выйти</span>
-          </NavLink>
+          </button>
         
         <i className="Sidebarpos">
             <div className="sidebarpos_inner"></div>
