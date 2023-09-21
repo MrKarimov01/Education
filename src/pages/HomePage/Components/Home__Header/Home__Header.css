@@ -420,13 +420,12 @@
     width: 100%;
   }
   .home__hero-inner-footer .home__hero-inner-information .infor p{
-    font-size: 20px;
+    font-size: 15px;
   }
   .home__hero-inner-footer .home__hero-inner-information .information {
     width: 100%;
   }
   .home__hero-inner-footer .home__hero-inner-information .information .information-inner{
-
     margin-left: 0;
     width: 90%;
   }
@@ -434,10 +433,22 @@
     font-size: 15px;
     width: 100%;
   }
+
   .home__hero-inner-footer .final .reserved{
     font-size: 15px;
     margin-left: 15px;
   }
+  .home__hero-inner-information .information p{
+    font-size: 20px;
+  }
+
+  .home__hero-inner-information .information .information-inner .information-inner-p p{
+    font-size: 20px;
+  }
+  .home__hero-inner-footer{
+    width: 100%;
+  }
+
 }
 
 .home__hero-inner-data-in {
@@ -723,7 +734,6 @@
   height: 440px;
   flex-direction: column;
   background: #E2F1F8;
-  border: 5px solid red;
 }
 .home__hero-inner-phone-in{
   display: flex;
