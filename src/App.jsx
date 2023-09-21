@@ -11,8 +11,7 @@ import StudentHome from "./pages/Student/StudentHome";
 import Univer__single from "./pages/Student/pages/Univer__single/Univer__single";
 import Menedjer__page from "./pages/Student/pages/Menedjer__page/Menedjer__page";
 import Edogover from "./pages/Student/pages/Edogover/Edogover";
-
-
+import Student_home from "./pages/Student/pages/Student_home/Student_home.jsx"
 const App = () => {
   return (
     <React.Fragment>
@@ -31,7 +30,7 @@ const App = () => {
           <Route path="institute" element={<h1>institute</h1>} />
         </Route>
         <Route path="student" element={<StudentHome />}>
-          <Route path="" element={<h1>salom</h1>} />
+          <Route path="" element={<Student_home/>} />
           <Route path="institute" element={<h1>institute</h1>} />
           <Route path="institute/id" element={<Univer__single/>} />
           <Route path="student" element={<Menedjer__page/>} />

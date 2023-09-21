@@ -1,6 +1,5 @@
 import React from "react";
-import "./StudentHome.css"
-
+import "./Student_home.css"
 const StudentHome = () => {
     return(
         <>
