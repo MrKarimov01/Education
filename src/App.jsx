@@ -10,6 +10,7 @@ import AdminPanel from "./pages/AdminPanel/AdminPanel";
 import StudentHome from "./pages/Student/StudentHome";
 import Univer__single from "./pages/Student/pages/Univer__single/Univer__single";
 import Menedjer__page from "./pages/Student/pages/Menedjer__page/Menedjer__page";
+import Edogover from "./pages/Student/pages/Edogover/Edogover";
 
 
 const App = () => {
@@ -34,6 +35,7 @@ const App = () => {
           <Route path="institute" element={<h1>institute</h1>} />
           <Route path="institute/id" element={<Univer__single/>} />
           <Route path="student" element={<Menedjer__page/>} />
+          <Route path="doc" element={<Edogover/>} />
         </Route>
       </Routes>
     </React.Fragment>

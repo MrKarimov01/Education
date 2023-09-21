@@ -68,6 +68,9 @@
         top: 112px !important;
 
     }
+    .sidedoc:hover ~ .Sidebarpos{
+        top: 168px !important;
+    }
     .sideExit:hover{
         background-color: #dde2ff27;
         transition: all 0.3s;

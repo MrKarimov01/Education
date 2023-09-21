@@ -1,7 +1,7 @@
 import React from 'react'
 import AdminSideBar from '../AdminPanel/Components/AdminSideBar/AdminSideBar'
 import { NavLink, Outlet } from 'react-router-dom'
-import { Glavniy, Student, Universitet } from '../../assets/icons'
+import { Document, Glavniy, Student, Universitet } from '../../assets/icons'
 import "./Student.scss"
 
 
@@ -21,6 +21,10 @@ const StudentHome = () => {
             <NavLink to={"student"} className="SidebarLinks sideStu">
                 <Student/>
                 <span>Студенты</span>
+            </NavLink>
+            <NavLink to={"doc"} className="SidebarLinks sidedoc">
+                <Document/>
+                <span>E-Договор</span>
             </NavLink>
          
         </AdminSideBar>
