@@ -486,7 +486,7 @@ const Home__Header = () => {
             <div className="home__hero-inner-footer">
                 <p className="footer-p">Получите бесплатную консультацию</p>
                 <div className="home__hero-inner-phone">
-                    <p>Оставьте ваш телефон номер и мы свяжемся с вами</p>
+                    <p className="phone-inner-p">Оставьте ваш телефон номер и мы свяжемся с вами</p>
                     <div className="home__hero-inner-phone-in">
                         <input type="text" placeholder="+998 9x xxx xx xx" />
                         <div className="phone-contact">
