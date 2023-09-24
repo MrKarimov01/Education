@@ -1,0 +1,211 @@
+.home__hero-inner-footer .footer-p {
+    margin-bottom: 20px;
+    color: #000;
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 40px;
+}
+
+.home__hero-inner-footer p {
+    margin-bottom: 20px;
+    color: #000;
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.home__hero-inner-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 440px;
+    flex-direction: column;
+    background: #E2F1F8;
+}
+
+.home__hero-inner-phone-in {
+    display: flex;
+    flex-direction: column;
+}
+
+.home__hero-inner-phone-in input {
+    padding: 25px;
+    border-radius: 5px;
+    color: #000D7F;
+    border: #000D7F;
+    font-size: 20px;
+}
+
+.home__hero-inner-phone-in button {
+    border-radius: 5px;
+    background: #000D7F;
+    color: white;
+    padding: 25px;
+    border: none;
+    font-size: 20px;
+}
+
+
+
+
+
+.home__hero-inner-phone .home__hero-inner-phone-in p {
+    font-size: 12px;
+    margin: 10px;
+}
+
+.phone-contact .check-box {
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: var(--blue-backgrounds);
+}
+
+.home__hero-inner-phone .phone-contact {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 20px;
+    width: 100%;
+}
+
+.home__hero-inner-information {
+    background: #000D7F;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home__hero-inner-information .infor {
+    width: 35%;
+}
+
+.home__hero-inner-information .infor div {
+    width: 60%;
+    margin: 40px;
+}
+
+.home__hero-inner-information .infor div p {
+    margin: 15px;
+}
+
+.home__hero-inner-information .main-p {
+    color: white;
+    font-size: 24px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 50px;
+}
+
+.home__hero-inner-information p {
+    color: white;
+    font-size: 24px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.home__hero-inner-information .informa {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+
+.home__hero-inner-information .informa .informa-inner p {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.7%;
+    width: 92%;
+
+}
+
+.home__hero-inner-information .mainma-p {
+    color: white;
+    font-size: 24px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 50px;
+    margin-left: 0;
+}
+
+.information {
+    width: 30%;
+    margin-left: 40px;
+}
+
+
+
+.information .information-inner .information-inner-p p {
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.7%;
+}
+
+.information .information-inner .information-inner-button .email {
+    width: 100%;
+    padding: 25px;
+    background-color: transparent;
+    color: white;
+    border: 1.5px solid #FFF;
+    border-radius: 12px;
+    font-size: 20px;
+}
+
+.information .information-inner .information-inner-button .member {
+    width: 100%;
+    padding: 25px;
+    background-color: #E2F1F8;
+    color: black;
+    border: 1.5px solid #FFF;
+    border-radius: 12px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.information .information-inner .information-inner-global {
+    margin-top: 40px;
+}
+
+.information .information-inner .information-inner-global .global-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.final {
+    display: flex;
+    justify-content: center;
+    background-color: #000D7F;
+}
+
+.final .reserved {
+    color: white;
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.7%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: -100px;
+}

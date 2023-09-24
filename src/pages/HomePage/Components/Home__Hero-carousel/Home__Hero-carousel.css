@@ -1,0 +1,131 @@
+.carousel-slider {
+    width: 100%;
+}
+
+.carousel-main-p {
+    color: #000;
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 80px;
+}
+
+.image-content {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: #E2F1F8;
+    padding: 20px;
+    width: 593px;
+    height: 505px;
+    flex-shrink: 0;
+    margin: 30px;
+    margin-left: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-content-p {
+    width: 100%;
+    margin: 10px;
+}
+
+.image-content-inner {
+    width: 100%;
+    display: flex;
+}
+
+.image-content-p p {
+    margin: 10px;
+}
+
+.image-content-text {
+    margin-top: 20px;
+}
+
+.image-content-text p {
+    color: #000;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 136.187%;
+}
+
+.image-content-p .carousel-card-main-p {
+    color: #000;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card-image img {
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.carousel-card-then-p {
+    color: #000;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.my__swiper {
+    width: 100%;
+}
+.swiper-button-next::after{
+    color:  black;
+}
+.swiper-button-prev::after{
+    color: black;
+}
+
+
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: var(--swiper-pagination-bottom, 8px);
+    top: var(--swiper-pagination-top, auto);
+    left: 0;
+    width: 100%;
+}
+.swiper-pagination{
+    position: relative;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    background-color: black;
+}
+
+
