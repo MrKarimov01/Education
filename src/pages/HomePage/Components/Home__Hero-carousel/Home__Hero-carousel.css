@@ -20,12 +20,10 @@
     height: 505px;
     flex-shrink: 0;
     margin: 30px;
+    margin-bottom: 80px;
 }
 
-.card {
-    display: flex;
-    flex-direction: column;
-}
+
 
 .image-content-p {
     width: 100%;
