@@ -1,6 +1,4 @@
-.carousel-slider {
-    width: 100%;
-}
+
 
 .carousel-main-p {
     color: #000;
@@ -22,12 +20,11 @@
     height: 505px;
     flex-shrink: 0;
     margin: 30px;
-    margin-left: 0;
 }
 
 .card {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .image-content-p {
@@ -42,6 +39,8 @@
 
 .image-content-p p {
     margin: 10px;
+    margin-left: 0;
+    width: 70%;
 }
 
 .image-content-text {
@@ -64,21 +63,29 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    display: flex;
+    margin-left: 10px;
 }
 
+.card-image{
+    width: 40%;
+}
 .card-image img {
     width: 100%;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.carousel-card-then-p {
+
+.image-content-p .carousel-card-then-p {
     color: #000;
     font-family: Raleway;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    display: flex;
+    margin-left: 10px;
 }
 
 .swiper {
