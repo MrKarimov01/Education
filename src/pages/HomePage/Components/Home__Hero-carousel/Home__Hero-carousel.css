@@ -31,14 +31,13 @@
     .image-content .image-content-inner .image-content-p{
         width: 100%;
         margin: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         flex-direction: column;
     }
     .image-content .image-content-inner .image-content-p p{
         font-size: 15px;
         margin: 5px;
+        display: flex;
+        justify-content: center;
     }
     .image-content .image-content-inner .card-image{
         width: 100%;
@@ -59,7 +58,7 @@
     .image-content .image-content-text p {
         font-size: 17px;
     }
-   
+    
 }
 
 .image-content-p {
