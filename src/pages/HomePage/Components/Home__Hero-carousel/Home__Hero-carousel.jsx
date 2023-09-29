@@ -18,20 +18,24 @@ const Home__Hero_carousel = () => {
                 navigation = {true}
                 spaceBetween={50}
                 slidesPerView={2.3}
+                breakpoints={{
+                    10:{
+                        spaceBetween: 10,
+                        slidesPerView: 1
+                    },
+                    768:{
+                        spaceBetween: 20,
+                        slidesPerView: 2
+                    },
+                    1000:{
+                        spaceBetween: 50,
+                        slidesPerView: 2.3
+                    },
+                }}
                 className="my__swiper"
 
             >
-                <div className="home__hero-inner-carousel">
-
-                    <div className="carousel-slider">
-                        <div className="slider-content">
-                            <div className="card-wrapper">
-                                <div className="card">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
                 <SwiperSlide>
                     <div className="image-content">
                         <div className="image-content-inner">
@@ -40,7 +44,7 @@ const Home__Hero_carousel = () => {
                             </div>
                             <div className="image-content-p">
                                 <p className="carousel-card-main-p">Nargiza Akhmedova</p>
-                                <p className="carousel-card-then-p">Бакалавр по IT</p>
+                                <p className="carousel-card-then2-p">Бакалавр по IT</p>
                                 <p className="carousel-card-then-p">Texas State University</p>
                             </div>
                         </div>
@@ -58,7 +62,7 @@ const Home__Hero_carousel = () => {
                             </div>
                             <div className="image-content-p">
                                 <p className="carousel-card-main-p">Dilshod Nazarov</p>
-                                <p className="carousel-card-then-p">Бакалавр по IT</p>
+                                <p className="carousel-card-then2-p">Бакалавр по IT</p>
                                 <p className="carousel-card-then-p">Texas State University</p>
                             </div>
                         </div>
@@ -76,7 +80,7 @@ const Home__Hero_carousel = () => {
                             </div>
                             <div className="image-content-p">
                                 <p className="carousel-card-main-p">Nargiza Akhmedova</p>
-                                <p className="carousel-card-then-p">Бакалавр по IT</p>
+                                <p className="carousel-card-then2-p">Бакалавр по IT</p>
                                 <p className="carousel-card-then-p">Texas State University</p>
                             </div>
                         </div>
@@ -94,7 +98,7 @@ const Home__Hero_carousel = () => {
                             </div>
                             <div className="image-content-p">
                                 <p className="carousel-card-main-p">Nargiza Akhmedova</p>
-                                <p className="carousel-card-then-p">Бакалавр по IT</p>
+                                <p className="carousel-card-then2-p">Бакалавр по IT</p>
                                 <p className="carousel-card-then-p">Texas State University</p>
                             </div>
                         </div>
@@ -112,7 +116,7 @@ const Home__Hero_carousel = () => {
                             </div>
                             <div className="image-content-p">
                                 <p className="carousel-card-main-p">Dilshod Nazarov</p>
-                                <p className="carousel-card-then-p">Бакалавр по IT</p>
+                                <p className="carousel-card-then2-p">Бакалавр по IT</p>
                                 <p className="carousel-card-then-p">Texas State University</p>
                             </div>
                         </div>

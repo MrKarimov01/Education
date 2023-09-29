@@ -1,14 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,500;0,600;1,100;1,500;1,600&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Raleway', sans-serif;
-}
 .edu{
-  width: 12%;
+  width: 11%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -16,7 +10,6 @@
 .home__header {
   position: relative;
   width: 100%;
-  height: 1100px;
 }
 
 .home__header-hero {
@@ -165,7 +158,15 @@
 }
 
 
-
+.home__ul-inner ul li{
+  margin-left: 25px;
+}
+.home__ul-inner ul li:nth-child(3){
+  margin-left: 0;
+}
+.home__ul-inner ul li:nth-child(4){
+  margin-left: 0;
+}
 
 @media(max-width: 1385px) {
   .home__header .home-search select {

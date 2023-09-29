@@ -1,5 +1,4 @@
 
-
 .carousel-main-p {
     color: #000;
     font-family: Raleway;
@@ -16,29 +15,70 @@
     border-radius: 10px;
     background: #E2F1F8;
     padding: 20px;
-    width: 593px;
-    height: 505px;
+    width: 100%;
+    height: 565px;
     flex-shrink: 0;
-    margin: 30px;
     margin-bottom: 80px;
+    margin-top: 40px;
 }
 
+@media(max-width:485px){
+    .image-content{
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    .image-content .image-content-inner .image-content-p{
+        width: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .image-content .image-content-inner .image-content-p p{
+        font-size: 15px;
+        margin: 5px;
+    }
+    .image-content .image-content-inner .card-image{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .image-content .image-content-inner .card-image img{
+        width: 50%;
+    }
+    .image-content .image-content-inner{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
 
+        
+    }
+    .image-content .image-content-text p {
+        font-size: 17px;
+    }
+   
+}
 
 .image-content-p {
     width: 100%;
     margin: 10px;
 }
 
-.image-content-inner {
+.image-content .image-content-inner {
     width: 100%;
     display: flex;
+    height: auto ;
 }
-
+.image-content-p{
+    margin-top: 0;
+}
 .image-content-p p {
     margin: 10px;
     margin-left: 0;
-    width: 70%;
+    width: 100%;
 }
 
 .image-content-text {
@@ -63,6 +103,7 @@
     line-height: normal;
     display: flex;
     margin-left: 10px;
+
 }
 
 .card-image{
@@ -85,7 +126,16 @@
     display: flex;
     margin-left: 10px;
 }
-
+.image-content-p .carousel-card-then2-p{
+    color: #000;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    margin-left: 10px;
+}
 .swiper {
     width: 100%;
     height: 100%;
@@ -95,8 +145,6 @@
     text-align: center;
     font-size: 18px;
     background: #fff;
-
-    /* Center slide text vertically */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,8 +152,6 @@
 
 .swiper-slide img {
     display: block;
-    width: 100%;
-    height: 100%;
     object-fit: cover;
 }
 

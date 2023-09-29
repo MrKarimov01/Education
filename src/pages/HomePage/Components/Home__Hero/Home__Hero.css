@@ -6,6 +6,7 @@
 .home__hero-inner_in {
     display: flex;
     justify-content: space-between;
+    width: 98%;
 }
 
 .inner-text {
