@@ -25,6 +25,7 @@
     font-weight: 700;
     line-height: 128.688%;
     background-color: #E2E3F8;
+    position: relative;
 }
 
 
@@ -32,6 +33,17 @@
     width: 100%;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
+    position: relative;
+    top: 0;
+}
+.home__hero-inner-data-in .home__hero-inner-data-in-img .data-icon{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+    margin-left: -10px;
 }
 
 .home__hero-inner-data-in-img .link {

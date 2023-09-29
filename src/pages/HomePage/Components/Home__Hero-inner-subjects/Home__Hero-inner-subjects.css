@@ -9,8 +9,7 @@
     border-radius: 10px;
     position: relative;
     top: 0;
-
-
+    object-fit: cover;
 }
 
 .home__hero-inner-subjects .subject-p {
@@ -32,6 +31,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 
 }
 
@@ -43,4 +43,14 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.subject-images .subject-images-bcg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000D7F66;
 }
