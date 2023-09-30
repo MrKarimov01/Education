@@ -1,12 +1,19 @@
 .AdminSideBar{
-    height: 100vh;
+    height: 100%;
     width: 20%;
     background-color: var(--blue-backgrounds);
     color: var(--white-text-color);
     position: relative;
     overflow-x: hidden;
     transition: all 0.2s linear;
-    
+    .adminsidebarwrapper{
+        position: fixed;
+        width: 17%;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        background-color: var(--blue-backgrounds);
+    }
 
     .logo{
         display: flex;
@@ -71,10 +78,28 @@
     .sidedoc:hover ~ .Sidebarpos{
         top: 168px !important;
     }
-    .sideExit:hover{
-        background-color: #dde2ff27;
-        transition: all 0.3s;
+
+.sideExit:hover{
+    background-color: #dde2ff4b;
+    cursor: pointer;
+}
+
+    .sideHome:focus ~ .Sidebarposp{
+        top: 0;
     }
+    .sideins:focus ~ .Sidebarpos{
+        top: 56px !important;
+
+    }
+    .sideStu:focus ~ .Sidebarpos{
+        top: 112px !important;
+
+    }
+    .sidedoc:focus ~ .Sidebarpos{
+        top: 168px !important;
+    }
+ 
+    
     .Sidebarpos{
         width: 100%;
         position: absolute;
@@ -124,10 +149,30 @@
         font-weight: 600;
     }
 }
-@media screen and (max-width:1150) {
+@media screen and (max-width:1150px) {
     .kattatext{
         font-size: 12px !important;
         font-weight: 600;
+    }
+  
+    .AdminSideBar{
+        width: 20% !important;
+    }
+    .adminsidebarwrapper{
+        position: fixed;
+        width: 20% !important;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        background-color: var(--blue-backgrounds);
+    }
+    .adminsidebarwrapper{
+        position: fixed;
+        width: 18% !important;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        background-color: var(--blue-backgrounds);
     }
 }
 @media screen and (max-width:1050px) {
@@ -144,8 +189,99 @@
         }
     }
     .AdminSideBar{
-        width: auto;
+        width: 10% !important;
+    }
+
+    .adminsidebarwrapper{
+        position: fixed;
+        width: 9% !important;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        background-color: var(--blue-backgrounds);
+    }
+    
+}
+@media screen and (max-width:880px) {
+    .logo{
+        padding:30px 0 0 25px !important;
+        span{
+            display: none !important;
+        }
+    }
+    .SidebarLinks{
+
+        span{
+            display: none !important;
+        }
+    }
+    .AdminSideBar{
+        width: 12% !important;
+    }
+
+    .adminsidebarwrapper{
+        position: fixed;
+        width: 10% !important;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        background-color: var(--blue-backgrounds);
     }
     
 }
 
+
+@media screen and (max-width:880px) {
+    .logo{
+        padding:30px 0 0 25px !important;
+        span{
+            display: none !important;
+        }
+    }
+    .SidebarLinks{
+
+        span{
+            display: none !important;
+        }
+    }
+    .AdminSideBar{
+        width: 15% !important;
+    }
+
+    .adminsidebarwrapper{
+        position: fixed;
+        width: 13% !important;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        background-color: var(--blue-backgrounds);
+    }
+    
+}
+@media screen and (max-width:558px) {
+    .logo{
+        padding:30px 0 0 25px !important;
+        span{
+            display: none !important;
+        }
+    }
+    .SidebarLinks{
+
+        span{
+            display: none !important;
+        }
+    }
+    .AdminSideBar{
+        width: 20% !important;
+    }
+
+    .adminsidebarwrapper{
+        position: fixed;
+        width: 17% !important;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        background-color: var(--blue-backgrounds);
+    }
+    
+}

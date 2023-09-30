@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { Exit, Side_Logo } from "../../../../assets/icons";
 import "./AdminSideBar.scss"
@@ -11,28 +11,18 @@ const AdminSideBar = (props) => {
       navigati("/")
     }, 500);
   }
-
+  
   
   return (
     <div className="AdminSideBar">
+      <div className="adminsidebarwrapper">
       <Link to={"/"} className="logo">
         <Side_Logo/>
         <span>Education</span>
       </Link>
       <ul className="SidebarBox">
         
-          {/* <NavLink to={"home"} className="SidebarLinks sideHome">
-            <Glavniy/>
-            <span>Главное</span>
-          </NavLink>
-          <NavLink to={"institute"} className="SidebarLinks sideins">
-            <Universitet/>
-            <span>Университеты</span>
-          </NavLink>
-          <NavLink to={"student"} className="SidebarLinks sideStu">
-            <Student/>
-            <span>Студенты</span>
-          </NavLink> */}
+     
           {props.children}
         
           <button onClick={LogOut} className="SidebarLinks sideExit">
@@ -44,6 +34,7 @@ const AdminSideBar = (props) => {
             <div className="sidebarpos_inner"></div>
         </i>
       </ul>
+      </div>
     </div>
   );
 };

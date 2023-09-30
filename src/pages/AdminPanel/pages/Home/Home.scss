@@ -5,6 +5,7 @@
     flex-direction: row;
     justify-content: flex-start;
     position: relative;
+    overflow-y: scroll;
 
 
     
@@ -80,3 +81,10 @@
     
 }
 
+
+.Homeactive  .Sidebarposp{
+    top: 0 !important;
+}
+.sideinsactive .Sidebarpos{
+    top: 56px !important;
+}

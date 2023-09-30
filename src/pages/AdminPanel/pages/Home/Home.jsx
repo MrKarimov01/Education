@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.scss";
 
 import Reatings from "../../Components/Reatings/Reatings";
+import Diagnostik from "../../Components/Diagnostik/Diagnostik";
 
 
 
@@ -21,6 +22,8 @@ const Home = () => {
         </div>
       </div>
       <Reatings student={number} universitet={universitet} startni={startni} fakultet={fakultet}/>
+      <Diagnostik/>
+      .
 
     </div>
   );
