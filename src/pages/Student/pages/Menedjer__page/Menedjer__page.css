@@ -1,28 +1,134 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 .Menedjer__page{
-    width: 1091px;
-    height: 501px;
-    top: 132px;
-    left: 319px;
-    border-radius: 14px;
-    background: #FFFFFF;
+    width: 100%;
+    height: auto;
 }
-.about{
+.pmenedjer{
+    color: #000;
     font-family: Raleway;
-    font-size: 24px;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+.Menedjer__page2{
+    width: 80%;
+    height: 501px;
+    border-radius: 14px;
+    margin: auto;
+    border-radius: 14px;
+    background: #FFF;
+    box-shadow: 2px 4px 9px 0px rgba(0, 0, 0, 0.10), 0px -2px 8px 0px rgba(0, 0, 0, 0.09);
+    
+}
+.nimadir{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.img{
+    height: 100px;
+    width: 100px;
+    border-radius: 120px;
+    background:  lightgray 50% / cover no-repeat;
+
+}
+.nameabout{
+    margin-left: 10px;
+}
+.m_name{
+    color: var(--main-txt-color, #00121A);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
     font-weight: 600;
-    line-height: 40px;
-    letter-spacing: 0.015em;
-    text-align: left;
+    line-height: normal;
+    letter-spacing: 0.44px;
+    
+}
+.m_about{
+    color: var(--main-txt-color, #00121A);
     font-family: Raleway;
-    font-size: 24px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.44px;
+  
+}
+.Menedjer__page3{
+    width: 1025px;
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
     font-weight: 500;
-    line-height: 40px;
-    letter-spacing: 0.015em;
-    text-align: left;
-    background: #000000;
+    line-height: 166.7%; /* 40.008px */
+    letter-spacing: 0.36px;
+     flex-direction: column;
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+    padding:  0 28px;
+    margin-bottom: 28px;
+    width: 100%;
+}
+.ism{
+    color: #000;
+    
+    font-weight: 600;
+   
+}
+.number{
+    color: #000;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 166.7%; /* 40.008px */
+    letter-spacing: 0.36px;
+    display: flex;
+    margin-bottom: 15px;
+    padding-left: 28px;
+}
+.email{
+    color: #000;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 166.7%; /* 40.008px */
+    letter-spacing: 0.36px;
+    display: flex;
+    padding-left: 28px;
+}
+.number .numbe{
+    margin-left: 10px;
+}
+.email .numbe{
+    margin-left: 10px;
+}
+
+
+
+@media screen and (max-width:648px) {
+    .Menedjer__page{
+     text-align: center;
+    }
+   .Menedjer__page3 p{
+    font-size: 15px;
+   }
+   .number{
+    font-size: 14px;
+   }
+   .email{
+    font-size: 14px;
+   }
+   .nameabout .m_name{
+    font-size: 13px;
+   }
+   .nameabout .m_about{
+    font-size: 13px;
+   }
 }
