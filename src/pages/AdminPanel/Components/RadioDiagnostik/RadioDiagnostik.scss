@@ -1,0 +1,198 @@
+.RadioDiagnostik{
+    width: 99%;
+    height: auto;
+    padding: 44px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .radiopart1{
+        width: auto;
+        height: 336px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+
+        border-radius: 14px;
+        background: #FFF;
+        position: relative;
+
+
+        box-shadow: 2px 4px 9px 0px rgba(0, 0, 0, 0.10), 0px -2px 8px 0px rgba(0, 0, 0, 0.09);
+        padding: 22px 0 0 32px;
+        .namechart{
+            color: var(--main-text-color);
+            font-family: Raleway;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 0.44px;
+            margin-bottom: 44px;
+        }.chartnum{
+            position: absolute;
+            bottom: 130px;
+            left: 105px;
+            color: var(--main-text-color);
+          
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+            letter-spacing: 0.44px;
+        }
+        .chart_people{
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-left: 35px;
+            margin-right: 76px;
+            .part{
+                display: flex;
+                flex-direction: row;
+                .box{
+                    width: 22.784px;
+                    height: 22.784px;
+                    border-radius: 5.468px;
+                    background: #4897D1;
+                    margin-right: 8px;
+                }
+                p:nth-child(2){
+                    color: var(--main-text-color);
+             
+                    font-size: 16.404px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 0.328px;
+                    margin-right: 56px;
+                }
+                p:nth-child(3){
+                    color: var(--main-text-color);
+                    font-family: Raleway;
+                    font-size: 16.404px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    letter-spacing: 0.328px;
+                }
+                &:last-child{
+                    margin-top: 15px;
+                    .box{
+                        width: 22.784px;
+                        height: 22.784px;
+                        border-radius: 5.468px;
+                        background: #EF476F;
+                        margin-right: 8px;
+                    }
+                }
+            }
+
+        }
+        &:nth-child(2){
+            .name_andchart{
+                .chartnum{
+                    left: 125px;
+                }
+            }
+            .part{
+                &:first-child{
+                    margin-bottom: 15px;
+                }
+            }
+            .part1{
+                display: flex;
+                flex-direction: row;
+                margin-top: 15px;
+                .box{
+                    width: 22.784px;
+                    height: 22.784px;
+                    border-radius: 5.468px;
+                    background: #C6E4FB;
+                    margin-right: 8px;
+
+                }
+                p:nth-child(2){
+                    color: var(--main-text-color);
+             
+                    font-size: 16.404px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 0.328px;
+                    margin-right: 56px;
+                }
+                p:nth-child(3){
+                    color: var(--main-text-color);
+                    font-family: Raleway;
+                    font-size: 16.404px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    letter-spacing: 0.328px;
+                }
+                
+            }
+            .part3{
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 15px;
+                .box{
+                    width: 22.784px;
+                    height: 22.784px;
+                    border-radius: 5.468px;
+                    background: #EF476F;
+                    margin-right: 8px;
+
+                }
+                p:nth-child(2){
+                    color: var(--main-text-color);
+             
+                    font-size: 16.404px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 0.328px;
+                    margin-right: 56px;
+                }
+                p:nth-child(3){
+                    color: var(--main-text-color);
+                    font-family: Raleway;
+                    font-size: 16.404px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    letter-spacing: 0.328px;
+                }
+                
+            }
+        }
+
+    }
+    .radiopart2{
+        width: auto;
+        height: 336px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+
+        border-radius: 14px;
+        background: #FFF;
+        position: relative;
+
+
+        box-shadow: 2px 4px 9px 0px rgba(0, 0, 0, 0.10), 0px -2px 8px 0px rgba(0, 0, 0, 0.09);
+        padding: 22px 0 0 32px;
+    }
+
+}
+.RadioChart{
+    width: 188px;
+    height: 188px;
+    margin-bottom: 56px;
+
+}

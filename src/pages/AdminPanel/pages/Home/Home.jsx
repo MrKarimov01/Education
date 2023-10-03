@@ -3,6 +3,7 @@ import "./Home.scss";
 
 import Reatings from "../../Components/Reatings/Reatings";
 import Diagnostik from "../../Components/Diagnostik/Diagnostik";
+import RadioDiagnostik from "../../Components/RadioDiagnostik/RadioDiagnostik";
 
 
 
@@ -23,7 +24,7 @@ const Home = () => {
       </div>
       <Reatings student={number} universitet={universitet} startni={startni} fakultet={fakultet}/>
       <Diagnostik/>
-      .
+      <RadioDiagnostik/>
 
     </div>
   );

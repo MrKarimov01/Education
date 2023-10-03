@@ -11,7 +11,7 @@ const AdminPanel = () => {
     <div className='Admin_Home'>
         <AdminSideBar >
             
-            <NavLink to={"home"} className={sidenavclick === "home" ? "SidebarLinks sideHome Homeactive":"SidebarLinks sideHome"} onClick={()=>setSidenavclick("home")}>
+            <NavLink to={""} className={sidenavclick === "home" ? "SidebarLinks sideHome Homeactive":"SidebarLinks sideHome"} onClick={()=>setSidenavclick("home")}>
                 <Glavniy/>
                 <span>Главное</span>
             </NavLink>
