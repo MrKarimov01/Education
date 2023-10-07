@@ -1,7 +1,4 @@
-import React from "react";
-import "./Diagnostik.scss"
-import Diagnostik_chart from "./Diagnostik_chart";
- 
+
 
 const Diagnostik =()=>{
 
