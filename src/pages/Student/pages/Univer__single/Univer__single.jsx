@@ -6,7 +6,13 @@ const Univer__single = () => {
   return(
     <>
    <div className="umumiy">
+    <div  className="univernameimg">
       <p className="univername">Университеты / Akdeniz Universiteti (Turkiya)</p>
+        <div className="univer_nameimg">
+          <img className="u_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5lr2uxXdbKkcJ0dGlev6nGlWlMMoy4pim5g&usqp=CAU" alt="Picture" />
+          <p className="uname">Nargiza Akhmedova</p>
+        </div>
+    </div>
      <div className="univer__single">
        <svg  xmlns="http://www.w3.org/2000/svg" width="238" height="238" viewBox="0 0 238 238" fill="none">
   <path d="M59.3497 71.5329L13.0778 98.246V44.5961L59.3497 17.8877V71.5329Z" fill="white"/>
