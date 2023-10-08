@@ -58,11 +58,17 @@
     .image-content .image-content-text{
         height: 200px;
         overflow: hidden;
+        margin-bottom: 30px;
     }
     .image-content .image-content-text p {
         font-size: 15px;
     }
-    
+    .swiper-button-prev::after{
+        display: none;
+    }
+    .swiper-button-next::after{
+        display: none;
+    }
 }
 
 .image-content-p {
