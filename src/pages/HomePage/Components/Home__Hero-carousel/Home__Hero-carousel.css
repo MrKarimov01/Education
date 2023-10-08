@@ -46,7 +46,7 @@
         justify-content: center;
     }
     .image-content .image-content-inner .card-image img{
-        width: 50%;
+        display: none;
     }
     .image-content .image-content-inner{
         display: flex;
@@ -55,8 +55,12 @@
 
         
     }
+    .image-content .image-content-text{
+        height: 200px;
+        overflow: hidden;
+    }
     .image-content .image-content-text p {
-        font-size: 17px;
+        font-size: 15px;
     }
     
 }
@@ -177,6 +181,3 @@
     background-color: black;
 }
 
-::-webkit-scrollbar{
-    width: 0;
-}

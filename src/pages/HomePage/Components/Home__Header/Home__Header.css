@@ -451,3 +451,14 @@
     font-size: 15px;
   }
 }
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 7px;
+  height: 300px;
+  background-color: #ccc;
+}
+::-webkit-scrollbar-track{
+  display: none;
+}
