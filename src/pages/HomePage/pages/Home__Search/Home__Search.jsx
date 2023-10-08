@@ -28,8 +28,8 @@ const Home__Search = () => {
                         <h3>Education</h3>
                     </div>
                     <div className="tag">
-                        <a href="#">Войти</a>
-                        <a href="#">Регистратция</a>
+                        <a href="./login">Войти</a>
+                        <a href="./login">Регистратция</a>
                     </div>
                 </nav>
                 <div className="home__header-hero">

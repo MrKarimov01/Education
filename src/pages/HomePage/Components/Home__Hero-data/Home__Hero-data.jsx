@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home__Hero-data.css"
 import { BsStar } from 'react-icons/bs';
+import { Colors } from "chart.js";
 const Home__Hero_data = () => {
     return (
         <>
@@ -10,7 +11,7 @@ const Home__Hero_data = () => {
 
                     <div className="home__hero-inner-data-in-img">
                         <div className="data-icon">
-                            <i><BsStar /></i>
+                            <i><BsStar/></i>
                         </div>
                         <img src="https://s3-alpha-sig.figma.com/img/334a/fe8d/4e0149ff34b233d323822c4c71857b73?Expires=1695600000&Signature=qtowyGqvdxZlC-6gpifgZhElIovFyoHkc4PzumloXvhINr9HoDDm9V1VxdbjJUK2pAnOmqJzosobkXaQbkNi2-yQBP1kcVVYfiEcDToVWmlJnDHuYdYDuwUJyw3huc1A0VnLa0WaJoX6FWIUC5EwHFgaZf66e-H12iGELeQneZAn8kMbcr3VtT9uoPodRQaPtxV2w4mlru23vMKmn8cJEZY0HcUt97noWjwYKwmZpXta-qTCEoFqrEi4~li1pWtd8YjdqEENvExy6DbVFWzHM8MeaelAOOzldNcePw51H3szTMmNM409DvosIj77M1vLM0Kgdpzy4yEJaGjvHwrblw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
                         <div className="home__hero-inner-data-in-text">
