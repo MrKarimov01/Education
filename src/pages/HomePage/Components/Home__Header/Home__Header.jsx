@@ -2,6 +2,7 @@ import React from "react";
 import "./Home__Header.css"
 import { BiSearch } from 'react-icons/bi';
 import { LuSchool2 } from 'react-icons/lu';
+import { RiArrowDropDownLine } from 'react-icons/ri';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Home__Hero from "../Home__Hero/Home__Hero";
 import Home__Hero_data from "../Home__Hero-data/Home__Hero-data";
@@ -9,9 +10,11 @@ import Home__Hero_inner_subjects from "../Home__Hero-inner-subjects/Home__Hero-i
 import Home__Hero_inner_comments from "../Home__Hero-inner-comments/Home__Hero-inner-comments";
 import Home__Hero_inner_footer from "../Home__Hero-inner-footer/Home__Hero-inner-footer";
 import Home__Hero_carousel from "../Home__Hero-carousel/Home__Hero-carousel";
+
 const Home__Header = () => {
 
     return (
+        
         <>
             <div className="home__header">
                 <img src="https://i.pinimg.com/564x/f0/00/f5/f000f561ba495eadbf9af952e170d755.jpg" alt="" />
@@ -35,8 +38,8 @@ const Home__Header = () => {
                         <h3>Education</h3>
                     </div>
                     <div className="tag">
-                        <a href="#">Войти</a>
-                        <a href="#">Регистратция</a>
+                        <a href="./login">Войти</a>
+                        <a href="./login">Регистратция</a>
                     </div>
                 </nav>
                 <div className="home__header-hero">
@@ -58,25 +61,38 @@ const Home__Header = () => {
                     <div className="home__header-search">
 
                         <p>Найти Университет</p>
-
                         <div className="home-search">
-                            <select name="city" id="city">
+                        <select name="city" id="city">
+                            
                                 <option value="city">Страна</option>
                                 <option value="city">Andijan</option>
                                 <option value="city">Tashkent</option>
                                 <option value="city">Voha</option>
+                                <option value="city">Andijan</option>
+                                <option value="city">Tashkent</option>
+                               
                             </select>
+                           
+                            
+
+
                             <select name="city" id="city">
+                            Страна
                                 <option value="city">Степень</option>
                                 <option value="city">Andijan</option>
                                 <option value="city">Tashkent</option>
                                 <option value="city">Voha</option>
+                                <option value="city">Andijan</option>
+                                <option value="city">Tashkent</option>
+                               
                             </select>
                             <select name="city" id="city">
                                 <option value="city">Направления</option>
                                 <option value="city">Andijan</option>
                                 <option value="city">Tashkent</option>
                                 <option value="city">Voha</option>
+                                <option value="city">Andijan</option>
+                                <option value="city">Tashkent</option>
                             </select>
 
                             <a href="./search" className="home__search-button"><BiSearch /></a>

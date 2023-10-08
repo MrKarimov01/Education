@@ -15,19 +15,19 @@ const Home__Hero_carousel = () => {
                 pagination={{
                     clickable: true,
                 }}
-                navigation = {true}
+                navigation={true}
                 spaceBetween={50}
                 slidesPerView={2.3}
                 breakpoints={{
-                    10:{
+                    10: {
                         spaceBetween: 10,
                         slidesPerView: 1
                     },
-                    768:{
+                    768: {
                         spaceBetween: 20,
                         slidesPerView: 2
                     },
-                    1000:{
+                    1000: {
                         spaceBetween: 50,
                         slidesPerView: 2.3
                     },
@@ -35,7 +35,7 @@ const Home__Hero_carousel = () => {
                 className="my__swiper"
 
             >
-                
+
                 <SwiperSlide>
                     <div className="image-content">
                         <div className="image-content-inner">
@@ -126,7 +126,7 @@ const Home__Hero_carousel = () => {
                         </div>
                     </div>
                 </SwiperSlide>
-                
+
 
             </Swiper>
 
