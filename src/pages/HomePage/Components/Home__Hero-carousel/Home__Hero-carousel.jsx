@@ -51,7 +51,7 @@ const Home__Hero_carousel = () => {
 
                         <div className="image-content-text">
                             <p>Webster University is a private university with its main campus in Webster Groves, Missouri. It has multiple branch locations across the United States and countries countries, Missouri. It has multiple branch locations across the United States and countries countries, Missouri. It has multiple branch locations across the United States and countries countries.</p>
-                        </div>
+                        </div>           
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
