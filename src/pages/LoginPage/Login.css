@@ -1,0 +1,77 @@
+.login_page{
+   width:700px;
+   height: 600px;
+   margin-top: 100px; 
+   border:1px #000;
+   border-radius: 20px;
+   background-color:whitesmoke;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   
+}
+.login_mini{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.edu{
+    margin-bottom: 50px;
+    text-align: center; 
+}
+.text{ 
+   text-align: center;
+   color: #000;
+   font-family: Raleway;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+.login_text{
+   margin-right: 550px;
+   margin-top: 10px;
+   
+   }
+   .login_inp{
+      
+      width: 600px;
+      height: 64px;
+      border-radius: 16px;
+      background: #FFF;
+      border-radius: 10px;
+   }
+ .password_inp{
+  
+   width: 600px;
+   height: 64px;
+   border-radius: 16px;
+   background: #FFF;
+   border-radius: 10px;
+ }
+ label{
+   display: flex;
+   margin-right: 400px;
+   margin-top: 10px;
+ }
+.btn{
+   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    background: #000D7F;
+    color: white;
+    width: 600px;
+    height: 64px;
+    margin-top: 20px;
+    color: #FFF;
+
+    font-size: 20px;
+
+    font-weight: 500;
+  
+    line-height: 64px;
+    border: none;
+}

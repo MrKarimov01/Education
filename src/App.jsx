@@ -12,33 +12,40 @@ import Univer__single from "./pages/Student/pages/Univer__single/Univer__single"
 import Menedjer__page from "./pages/Student/pages/Menedjer__page/Menedjer__page";
 import Edogover from "./pages/Student/pages/Edogover/Edogover";
 import Student_home from "./pages/Student/pages/Student_home/Student_home.jsx"
+import Footer from "./view/Footer/Footer";
 const App = () => {
   return (
-    <React.Fragment>
-      <Routes>
-        <Route path="/" element={<Outlet />}>
-          <Route path="" element={<HomePage__Home />} />
-          <Route path="search" element={<Home__Search />} />
-          <Route path="search/id" element={<h1>searchid</h1>} />
-        </Route>
-        <Route path="/login" element={<Outlet />}>
-          <Route path="" element={<Login />} />
-          <Route path="register" element={<h1>register</h1>} />
-        </Route>
-        <Route path="admin" element={<AdminPanel />}>
-          <Route path="" element={<Home />} />
-          <Route path="institute" element={<h1>institute</h1>} />
-        </Route>
-        <Route path="student" element={<StudentHome />}>
-          <Route path="" element={<Student_home/>} />
-          <Route path="institute" element={<h1>institute</h1>} />
-          <Route path="institute/id" element={<Univer__single/>} />
-          <Route path="student" element={<Menedjer__page/>} />
-          <Route path="doc" element={<Edogover/>} />
-        </Route>
-      </Routes>
-    </React.Fragment>
-  );
+    
+          <React.Fragment>
+          <Routes>
+            <Route path="/" element={<Outlet />}>
+              <Route path="" element={<HomePage__Home />} />
+              <Route path="search" element={<Home__Search />} />
+              <Route path="search/id" element={<h1>searchid</h1>} />
+            </Route>
+            <Route path="/login" element={<Outlet />}>
+              <Route path="" element={<Login />} />
+          
+            </Route>
+            <Route path="admin" element={<AdminPanel />}>
+              <Route path="" element={<Home />} />
+              <Route path="institute" element={<h1>institute</h1>} />
+            </Route>
+            <Route path="student" element={<StudentHome />}>
+              <Route path="" element={<Student_home/>} />
+              <Route path="institute" element={<h1>institute</h1>} />
+              <Route path="institute/id" element={<Univer__single/>} />
+              <Route path="student" element={<Menedjer__page/>} />
+              <Route path="doc" element={<Edogover/>} />
+            </Route>
+          </Routes>
+          <Footer/>
+        </React.Fragment>
+        
+  
+    
+      
+    );
 };
 
 export default App;

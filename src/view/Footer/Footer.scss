@@ -1,0 +1,21 @@
+.UmumiyFotter{
+    position: relative;
+    bottom: -1px;
+    width: 100%;
+    background-color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        a{
+            margin-left: 20px;
+            &:first-child{
+                margin-left: 0;
+            }
+        }
+    }
+}
