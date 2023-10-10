@@ -29,7 +29,7 @@
         margin: 0;
     }
     .image-content .image-content-inner .image-content-p{
-        width: 100%;
+        width: 70%;
         margin: 0;
         flex-direction: column;
     }
@@ -37,23 +37,18 @@
         font-size: 15px;
         margin: 5px;
         display: flex;
-        justify-content: center;
     }
     .image-content .image-content-inner .card-image{
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        width: 30%;
     }
     .image-content .image-content-inner .card-image img{
-        display: none;
+        display: flex;
+        width: 70px;
     }
     .image-content .image-content-inner{
         display: flex;
-        flex-direction: column;
-        height: 100%;
-
-        
+        flex-direction: row;
+        height: 100%;        
     }
     .image-content .image-content-text{
         height: 200px;

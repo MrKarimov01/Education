@@ -348,15 +348,22 @@
     font-size: 17px;
     flex-direction: column;
   }
-
-  .home__hero-inner-data-in-text-in {
-    flex-direction: column;
-  }
-
-  .home__hero-inner-data-in-text-in span {
+  .home__hero-inner-data-in .home__hero-inner-data-in-text p{
     font-size: 15px;
   }
-
+  .home__hero-inner-data-in .home__hero-inner-data-in-text-in {
+    flex-direction: column;
+  }
+  .home__hero-inner-data-in .home__hero-inner-data-in-text-in span{
+    font-size: 11px;
+  }
+  .home__hero-inner-data-in .home__hero-inner-data-in-text-in span {
+    font-size: 15px;
+    margin-top: -10px;
+  }
+  .home__hero-inner-data-in .home__hero-inner-data-in-text .link{
+    font-size: 15px;
+  }
   .home__hero-inner-subjects-subjects {
     justify-content: center;
   }
