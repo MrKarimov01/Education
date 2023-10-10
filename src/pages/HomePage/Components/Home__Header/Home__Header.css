@@ -25,7 +25,7 @@
 }
 
 .home__header .home__nav {
-  display: flex;
+  display: flex ;
   align-items: center;
   justify-content: space-between;
   margin-left: 40px;
@@ -38,18 +38,13 @@
 
 .home__header .edu {
   color: var(--white-text-color);
-  margin-top: 20px;
 }
 
-.home__header .tag {
-  margin-top: 20px;
-}
 
 .home__header .tag a {
   color: var(--white-text-color);
   text-decoration: none;
   margin: 10px;
-  margin-top: 100px;
 }
 
 .home__h2 {
