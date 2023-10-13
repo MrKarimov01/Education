@@ -1,9 +1,10 @@
-import React from "react"
-import "./Login.css"
-const Login = () => {
-  return (
-    <React.Fragment>
-      <div className="login-page">
+import React from "react";
+import Login from "../login";
+
+const Registir = ()=>{
+    return(
+        <>
+              <div className="login-page">
         <div className="login-inner">
           <h2>Education</h2>
           <svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47" fill="none">
@@ -22,11 +23,13 @@ const Login = () => {
         </div>
         <div className="login-head">
           <div className="login-inner-main">
-            <p className="main-p">Войти</p>
+            <p className="main-p">Регистрация</p>
             <div className="login-inner-main-in">
-
-              <p>Логин</p>
-              <input type="text" />
+                <p>Аккаунта</p>
+                <input type="text" />
+              <p>Пароль</p>
+              <input type="password" />
+              <p>Потвердиты</p>
               <input type="password" />
               <div className="checkbox">
                 <div className="checkbox-in">
@@ -37,16 +40,13 @@ const Login = () => {
               </div>
               <a className="first" href="./student">Войти</a>
               <div className="login-final">
-                <p>Нет аккаунта?</p>
-                <a href="./registir">Регистрация</a>
               </div>
 
             </div>
           </div>
         </div>
       </div>
-
-    </React.Fragment>
-  )
+        </>
+    )
 }
-export default Login
+export default Registir

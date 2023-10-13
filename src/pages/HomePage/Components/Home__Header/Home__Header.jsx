@@ -39,7 +39,7 @@ const Home__Header = () => {
                     </div>
                     <div className="tag">
                         <a href="./login">Войти</a>
-                        <a href="./login">Регистратция</a>
+                        <a href="./registir">Регистратция</a>
                     </div>
                 </nav>
                 <div className="home__header-hero">

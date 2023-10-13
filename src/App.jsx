@@ -5,7 +5,7 @@ import { Outlet, Route, Routes } from "react-router-dom";
 import Home__Search from "./pages/HomePage/pages/Home__Search/Home__Search";
 import Login from "./pages/LoginPage/login";
 import Home from "./pages/AdminPanel/pages/Home/Home";
-
+import Registir from "./pages/LoginPage/Registratsion/Registr";
 import AdminPanel from "./pages/AdminPanel/AdminPanel";
 import StudentHome from "./pages/Student/StudentHome";
 import Univer__single from "./pages/Student/pages/Univer__single/Univer__single";
@@ -18,6 +18,7 @@ const App = () => {
     
           <React.Fragment>
           <Routes>
+            <Route path="/registir" element={<Registir/>}/>
             <Route path="/" element={<Outlet />}>
               <Route path="" element={<HomePage__Home />} />
               <Route path="search" element={<Home__Search />} />

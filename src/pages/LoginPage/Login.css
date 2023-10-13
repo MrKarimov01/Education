@@ -1,74 +1,143 @@
-.login_page{
-   width:700px;
-   height: 600px;
-   margin-top: 100px; 
-   border:1px #000;
-   border-radius: 20px;
-   background-color:whitesmoke;
+.login-page {
    display: flex;
-   align-items: center;
-   justify-content: center;
    flex-direction: column;
-   
+   align-items: center;
+   width: 100%;
+   height: 100%;
 }
-.login_mini{
+
+.login-head {
+   margin-top: 100px;
+   width: 50%;
+   height: auto;
+   border-radius: 16px;
+   background: #FFF;
+   box-shadow: 2px 4px 9px 0px rgba(0, 0, 0, 0.10), 0px -2px 8px 0px rgba(0, 0, 0, 0.09);
+   margin-bottom: 100px;
+}
+
+.login-inner {
+   width: 100%;
    display: flex;
+   flex-direction: row-reverse;
    align-items: center;
    justify-content: center;
+   margin-top: 50px;
 }
-.edu{
-    margin-bottom: 50px;
-    text-align: center; 
+
+.login-inner-main {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 10px;
 }
-.text{ 
-   text-align: center;
+
+.login-inner-main-in input {
+   width: 100%;
+   margin: 20px;
+   margin-left: 0;
+   padding: 20px;
+   font-size: 20px;
+   border-radius: 10px;
+   border: 1.5px solid #47606B;
+}
+
+.login-inner-main-in p {
    color: #000;
    font-family: Raleway;
-   font-size: 20px;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   letter-spacing: 0.3px;
+}
+
+.login-inner-main .main-p {
+   color: #000;
+   font-family: Raleway;
+   font-size: 26px;
    font-style: normal;
    font-weight: 600;
    line-height: normal;
 }
-.login_text{
-   margin-right: 550px;
-   margin-top: 10px;
-   }
-   .login_inp{  
-      width: 600px;
-      height: 64px;
-      border-radius: 16px;
-      background: #FFF;
-      border-radius: 10px;
-      padding: 10px;
-      font-size: 20px;
-   }
- .password_inp{
-   width: 600px;
-   height: 64px;
-   border-radius: 16px;
-   background: #FFF;
-   border-radius: 10px;
-   padding: 10px;
-   font-size: 20px;
- }
- label{
+
+.login-inner-main p {
+   margin-left: 0;
    display: flex;
-   margin-right: 400px;
-   margin-top: 10px;
- }
-.btn{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    border-radius: 10px;
-    background: #000D7F;
-    color: white;
-    width: 600px;
-    height: 64px;
-    margin-top: 20px;
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 64px;
-    border: none;
+   justify-content: start;
+}
+
+.login-inner-main-in {
+   width: 90%;
+   margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+}
+
+.login-inner-main-in .first {
+   color: #FFF;
+   font-family: Raleway;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   width: 100%;
+   height: 70px;
+   border: none;
+   border-radius: 10px;
+   background: #000D7F;
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.checkbox {
+   display: flex;
+   flex-direction: row;
+   width: 40%;
+   align-items: center;
+}
+
+.checkbox p {
+   width: 100%;
+   color: #E2E3F8;
+   font-family: Raleway;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   letter-spacing: 0.28px;
+}
+
+.login-final {
+   display: flex;
+   justify-content: space-around;
+   margin: 40px;
+   margin-left: 160px;
+   margin-right: 160px;
+   align-items: center;
+}
+
+.login-final p {
+   color: #000;
+   font-family: Raleway;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   letter-spacing: 0.36px;
+}
+
+.login-final a {
+   color: #000D7F;
+   font-family: Raleway;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   letter-spacing: 0.36px;
+   text-decoration: none;
 }
