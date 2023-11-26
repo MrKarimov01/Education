@@ -48,6 +48,9 @@
 .home__hero-inner-data-in .home__hero-inner-data-in-img .data-icon i{
     color:  white;
 }
+.home__hero-inner-data-in .home__hero-inner-data-in-img .data-icon i:active{
+    color: yellow;
+}
 .home__hero-inner-data-in-img .link {
     color: #000D7F;
     font-family: Raleway;
